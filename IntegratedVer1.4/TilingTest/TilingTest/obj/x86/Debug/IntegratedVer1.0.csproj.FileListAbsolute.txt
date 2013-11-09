@@ -1,0 +1,15 @@
+C:\Users\Richard Andrews\Desktop\TilingTest\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\endOfTurn.xnb
+C:\Users\Richard Andrews\Desktop\TilingTest\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\nextTurn.xnb
+C:\Users\Richard Andrews\Desktop\TilingTest\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\quit.xnb
+C:\Users\Richard Andrews\Desktop\TilingTest\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\soulGui.xnb
+C:\Users\Richard Andrews\Desktop\TilingTest\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\title.xnb
+C:\Users\Richard Andrews\Desktop\TilingTest\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\upgrade.xnb
+C:\Users\Richard Andrews\Desktop\TilingTest\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\zoneGui.xnb
+C:\Users\Richard Andrews\Desktop\TilingTest\TilingTest\TilingTest\bin\x86\Debug\Content\images\TileSets\part3_tileset.xnb
+C:\Users\Richard Andrews\Desktop\TilingTest\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\cashSouls.xnb
+C:\Users\Richard Andrews\Desktop\TilingTest\TilingTest\TilingTest\bin\x86\Debug\TilingTest.exe
+C:\Users\Richard Andrews\Desktop\TilingTest\TilingTest\TilingTest\bin\x86\Debug\TilingTest.pdb
+C:\Users\Richard Andrews\Desktop\TilingTest\TilingTest\TilingTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Richard Andrews\Desktop\TilingTest\TilingTest\TilingTest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Richard Andrews\Desktop\TilingTest\TilingTest\TilingTest\obj\x86\Debug\TilingTest.exe
+C:\Users\Richard Andrews\Desktop\TilingTest\TilingTest\TilingTest\obj\x86\Debug\TilingTest.pdb
