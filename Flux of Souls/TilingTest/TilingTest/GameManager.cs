@@ -42,7 +42,7 @@ namespace FluxOfSouls
 
         void endOfTurnGui_VisibleChanged(object sender, EventArgs e)
         {
-            if (endOfTurnGui.Visible == false)
+            if (endOfTurnGui.Visible == false && splashScreen.Visible == false)
             {
 
                 //Add end turn button component
@@ -60,6 +60,8 @@ namespace FluxOfSouls
                 //Selection - green square made visible
                 selectionComponent.Visible = true;
                 selectionComponent.Enabled = true;
+
+                
 
 
                 //Allows the zoneGui thread to run
@@ -88,6 +90,8 @@ namespace FluxOfSouls
                 //Selection - green square made visible
                 selectionComponent.Visible = true;
                 selectionComponent.Enabled = true;
+
+               
 
 
                 //Allows the zoneGui thread to run
