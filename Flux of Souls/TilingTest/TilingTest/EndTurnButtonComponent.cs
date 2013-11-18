@@ -89,7 +89,6 @@ namespace FluxOfSouls
         {
             this.Enabled = false;
             this.Visible = false;
-            
         }
     }
 }

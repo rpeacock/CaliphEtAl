@@ -122,8 +122,6 @@ namespace FluxOfSouls
                     upgradeCost = 0; //new cost
                 }
             }
-
-            
             
             //if (zoneType == (int)ZoneStates.Water)
             //{
@@ -158,7 +156,5 @@ namespace FluxOfSouls
             //    //Message that zone is not upgradable any further
             //}
         }
-
-
     }
 }

@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\images\TileSets\part3_tileset.xnb</Output>
-      <Time>2013-11-18T14:18:41.213045-05:00</Time>
+      <Time>2013-11-11T12:34:32-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\cashSouls.png</Source>
@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\cashSouls.xnb</Output>
-      <Time>2013-11-18T14:18:41.3461337-05:00</Time>
+      <Time>2013-11-11T12:34:34-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\endOfTurn.png</Source>
@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\endOfTurn.xnb</Output>
-      <Time>2013-11-18T14:18:41.3491409-05:00</Time>
+      <Time>2013-11-11T12:34:34-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\nextTurn.png</Source>
@@ -35,7 +35,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\nextTurn.xnb</Output>
-      <Time>2013-11-18T14:18:41.3541433-05:00</Time>
+      <Time>2013-11-11T12:34:34-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\quit.png</Source>
@@ -44,7 +44,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\quit.xnb</Output>
-      <Time>2013-11-18T14:18:41.357141-05:00</Time>
+      <Time>2013-11-11T12:34:34-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\soulGui.png</Source>
@@ -53,7 +53,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\soulGui.xnb</Output>
-      <Time>2013-11-18T14:18:41.3591428-05:00</Time>
+      <Time>2013-11-11T12:34:34-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\title.png</Source>
@@ -62,7 +62,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\title.xnb</Output>
-      <Time>2013-11-18T14:18:41.3611437-05:00</Time>
+      <Time>2013-11-11T12:34:34-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\upgrade.png</Source>
@@ -71,7 +71,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\upgrade.xnb</Output>
-      <Time>2013-11-18T14:18:41.3621448-05:00</Time>
+      <Time>2013-11-11T12:34:34-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\zoneGui.png</Source>
@@ -80,7 +80,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\zoneGui.xnb</Output>
-      <Time>2013-11-18T14:18:41.3641457-05:00</Time>
+      <Time>2013-11-11T12:34:34-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\endTurn.png</Source>
@@ -89,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\endTurn.xnb</Output>
-      <Time>2013-11-18T14:18:41.3501415-05:00</Time>
+      <Time>2013-11-11T12:34:34-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\tiles.png</Source>
@@ -98,7 +98,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\tiles.xnb</Output>
-      <Time>2013-11-18T14:18:41.360143-05:00</Time>
+      <Time>2013-11-11T12:34:34-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\goldCurrency.png</Source>
@@ -107,7 +107,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\goldCurrency.xnb</Output>
-      <Time>2013-11-18T14:18:41.3521428-05:00</Time>
+      <Time>2013-11-11T12:34:34-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\pointCurrency.png</Source>
@@ -116,7 +116,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\pointCurrency.xnb</Output>
-      <Time>2013-11-18T14:18:41.3561455-05:00</Time>
+      <Time>2013-11-11T12:34:34-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\soulCurrency.png</Source>
@@ -125,7 +125,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\soulCurrency.xnb</Output>
-      <Time>2013-11-18T14:18:41.3591428-05:00</Time>
+      <Time>2013-11-11T12:34:34-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\currencyContainer.png</Source>
@@ -134,7 +134,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\currencyContainer.xnb</Output>
-      <Time>2013-11-18T14:18:41.3471344-05:00</Time>
+      <Time>2013-11-11T12:34:34-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\selection.png</Source>
@@ -143,7 +143,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\selection.xnb</Output>
-      <Time>2013-11-18T14:18:41.3581421-05:00</Time>
+      <Time>2013-11-11T12:34:34-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\newgame.png</Source>
@@ -152,7 +152,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\newgame.xnb</Output>
-      <Time>2013-11-18T14:18:41.3531439-05:00</Time>
+      <Time>2013-11-11T12:34:34-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\viewinstructionsbutton.png</Source>
@@ -161,7 +161,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\viewinstructionsbutton.xnb</Output>
-      <Time>2013-11-18T14:18:41.363145-05:00</Time>
+      <Time>2013-11-11T12:34:34-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\newgamebutton.png</Source>
@@ -170,7 +170,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\newgamebutton.xnb</Output>
-      <Time>2013-11-18T14:18:41.3541433-05:00</Time>
+      <Time>2013-11-11T12:34:34-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\expertbutton.png</Source>
@@ -179,7 +179,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\expertbutton.xnb</Output>
-      <Time>2013-11-18T14:18:41.3511422-05:00</Time>
+      <Time>2013-11-11T13:00:34-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\normalbutton.png</Source>
@@ -188,7 +188,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\normalbutton.xnb</Output>
-      <Time>2013-11-18T14:18:41.355144-05:00</Time>
+      <Time>2013-11-11T13:00:40-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\easybutton.png</Source>
@@ -197,7 +197,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\easybutton.xnb</Output>
-      <Time>2013-11-18T14:18:41.3481351-05:00</Time>
+      <Time>2013-11-11T13:00:54-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\return.png</Source>
@@ -215,7 +215,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\fonts\CourierNew.xnb</Output>
-      <Time>2013-11-18T14:18:41.2110449-05:00</Time>
+      <Time>2013-11-11T12:34:32-05:00</Time>
     </Item>
     <Item>
       <Source>sounds\mozart.mp3</Source>
@@ -225,7 +225,7 @@
       <Options>None</Options>
       <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\mozart.xnb</Output>
       <Extra>C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\mozart.wma</Extra>
-      <Time>2013-11-18T14:18:41.3441324-05:00</Time>
+      <Time>2013-11-11T12:34:34-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
