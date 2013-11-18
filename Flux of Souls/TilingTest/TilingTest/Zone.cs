@@ -19,6 +19,7 @@ namespace FluxOfSouls
         private int id;
         private int zoneType;
         private int upgradeCost;
+        private int numberOfSouls;
 
         private static Zone selectedZone;
 
@@ -34,12 +35,19 @@ namespace FluxOfSouls
             positionRectangle = new Rectangle((40 * col) + 300, (30 * row) + 55, 40, 30); //+300 and +55 are positioning the whole map to the right and south     
             this.id = idCounter;
             upgradeCost = 300;
+            numberOfSouls = 100;
             idCounter++;
         }
         public String getUpgradeCost()
         {
             return upgradeCost.ToString();
         }
+        public String getNumberOfSouls()
+        {
+
+            return numberOfSouls.ToString();
+        }
+
         public String getZoneIDString()
         {
             return id.ToString();
