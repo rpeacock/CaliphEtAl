@@ -17,6 +17,7 @@ Content\sprites\selection.xnb
 Content\sprites\newgame.xnb
 Content\sprites\viewinstructionsbutton.xnb
 Content\sprites\newgamebutton.xnb
+<<<<<<< HEAD
 Content\sprites\expertbutton.xnb
 Content\sprites\normalbutton.xnb
 Content\sprites\easybutton.xnb
@@ -27,6 +28,11 @@ Content\sprites\sellSouls.xnb
 =======
 Content\sprites\return.xnb
 >>>>>>> quick fix
+=======
+>>>>>>> parent of 7124e57... Currency Controller
 Content\fonts\CourierNew.xnb
 Content\sounds\mozart.xnb
 Content\sounds\mozart.wma
+Content\sprites\expertbutton.xnb
+Content\sprites\normalbutton.xnb
+Content\sprites\easybutton.xnb

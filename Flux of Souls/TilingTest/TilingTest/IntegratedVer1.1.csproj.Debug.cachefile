@@ -17,9 +17,12 @@ Content\sprites\selection.xnb
 Content\sprites\newgame.xnb
 Content\sprites\viewinstructionsbutton.xnb
 Content\sprites\newgamebutton.xnb
+Content\fonts\CourierNew.xnb
+Content\sounds\mozart.xnb
 Content\sprites\expertbutton.xnb
 Content\sprites\normalbutton.xnb
 Content\sprites\easybutton.xnb
+<<<<<<< HEAD
 <<<<<<< HEAD
 Content\sprites\currencyController.xnb
 Content\sprites\getPoints.xnb
@@ -29,4 +32,6 @@ Content\sprites\return.xnb
 >>>>>>> quick fix
 Content\fonts\CourierNew.xnb
 Content\sounds\mozart.xnb
+=======
+>>>>>>> parent of 7124e57... Currency Controller
 Content\sounds\mozart.wma

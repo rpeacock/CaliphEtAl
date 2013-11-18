@@ -104,7 +104,8 @@ namespace FluxOfSouls
         //To be implemented
         public void NextTurn()
         {
-
+            this.Visible = false;
+            this.Enabled = false;
         }
 
         public void Quit()

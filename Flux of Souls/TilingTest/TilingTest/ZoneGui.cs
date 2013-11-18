@@ -27,6 +27,11 @@ namespace FluxOfSouls
         Rectangle cashSoulsRectangle;
         Rectangle cashSoulsRectanglePosition;
 
+        //return souls
+        Texture2D returnSoulsTexture;
+        Rectangle returnSoulsRectangle;
+        Rectangle returnSoulsRectanglePosition;
+
         //upgrade Button
         Texture2D upgradeTexture;
         Rectangle upgradeRectangle;
@@ -83,13 +88,14 @@ namespace FluxOfSouls
             idStringPosition = new Vector2(15, 80);
             typeStringPosition = new Vector2(15, 110);
             upgradeCostStringPosition = new Vector2(15, 140);
-            numberOfSoulsStringPosition = new Vector2(15, 170);
+            numberOfSoulsStringPosition = new Vector2(620, 17);
 
             //Loading Textures
             spriteBatch = new SpriteBatch(GraphicsDevice);
             zoneGuiTexture = Game.Content.Load<Texture2D>(@"sprites\zoneGui");
             upgradeTexture = Game.Content.Load<Texture2D>(@"sprites\upgrade");
             cashSoulsTexture = Game.Content.Load<Texture2D>(@"sprites\cashSouls");
+            returnSoulsTexture = Game.Content.Load<Texture2D>(@"sprites\return");
 
             //Zone rectangles
             zoneGuiRectangle = new Rectangle(0, 0, zoneGuiTexture.Width, zoneGuiTexture.Height);
@@ -103,6 +109,10 @@ namespace FluxOfSouls
             upgradeRectangle = new Rectangle(0, 0, upgradeTexture.Width, upgradeTexture.Height);
             upgradeRectanglePosition = new Rectangle(20, 350, upgradeTexture.Width, upgradeTexture.Height);
 
+            //Return Rectangles
+            returnSoulsRectangle = new Rectangle(0, 0, returnSoulsTexture.Width, returnSoulsTexture.Height);
+            returnSoulsRectanglePosition = new Rectangle(20, 300, returnSoulsTexture.Width, returnSoulsTexture.Height);
+
             base.LoadContent();
         }
         
@@ -111,7 +121,7 @@ namespace FluxOfSouls
             zoneSelected = Zone.GetSelectedZone();
             if (zoneSelected == null)
             {
-                this.Visible = false;
+                this.Visible = true;
                 this.Enabled = true;
             }
             else
@@ -120,7 +130,6 @@ namespace FluxOfSouls
                 idString = zoneSelected.getZoneIDString();
                 typeString = zoneSelected.getZoneName(zoneSelected.GetZoneType()); //get zone type int.. give it to the GetZoneName and receive string with name of zone type
                 upgradeCostString = zoneSelected.getUpgradeCost();
-                numberOfSoulsString = zoneSelected.getNumberOfSouls();
 
                 this.Visible = true;
                 this.Enabled = true;
@@ -135,6 +144,10 @@ namespace FluxOfSouls
 
                     Upgrade(Zone.GetSelectedZone());
                 }
+                if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && returnSoulsRectanglePosition.Contains(currentMouseState.X, currentMouseState.Y))
+                {
+                    returnSouls();
+                }
                 pastMouseState = currentMouseState;
             }
             base.Update(gameTime);
@@ -145,10 +158,10 @@ namespace FluxOfSouls
             spriteBatch.Draw(zoneGuiTexture, zoneGuiRectanglePosition,zoneGuiRectangle, Color.White);
             spriteBatch.Draw(cashSoulsTexture, cashSoulsRectanglePosition, cashSoulsRectangle, Color.White);
             spriteBatch.Draw(upgradeTexture, upgradeRectanglePosition, upgradeRectangle, Color.White);
+            spriteBatch.Draw(returnSoulsTexture, returnSoulsRectanglePosition, returnSoulsRectangle, Color.White);
             spriteBatch.DrawString(spriteFont, "Zone ID: " + idString, idStringPosition, Color.Maroon);
             spriteBatch.DrawString(spriteFont, "Zone Type:" + typeString, typeStringPosition, Color.Maroon);
             spriteBatch.DrawString(spriteFont, "Upgrade Cost:" + upgradeCostString, upgradeCostStringPosition, Color.Maroon);
-            spriteBatch.DrawString(spriteFont, "Souls: " + numberOfSoulsString, numberOfSoulsStringPosition, Color.Maroon);
             spriteBatch.End();
             base.Draw(gameTime);
         }
@@ -162,5 +175,12 @@ namespace FluxOfSouls
         {
 
         }
+
+        public void returnSouls()
+        {
+            
+        }
+
+
     }
 }

@@ -211,6 +211,7 @@ I:\College Courses\Fall 2013\COMP231\Flux of Souls\IntegratedVer1.4\TilingTest\T
 I:\College Courses\Fall 2013\COMP231\Flux of Souls\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\normalbutton.xnb
 I:\College Courses\Fall 2013\COMP231\Flux of Souls\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\easybutton.xnb
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Tobias\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\images\TileSets\part3_tileset.xnb
 C:\Users\Tobias\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\cashSouls.xnb
 C:\Users\Tobias\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\endOfTurn.xnb
@@ -344,3 +345,5 @@ C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\o
 C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\obj\x86\Debug\TilingTest.pdb
 C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\return.xnb
 >>>>>>> quick fix
+=======
+>>>>>>> parent of 7124e57... Currency Controller

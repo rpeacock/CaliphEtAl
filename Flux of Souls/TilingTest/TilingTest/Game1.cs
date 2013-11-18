@@ -35,8 +35,6 @@ namespace FluxOfSouls
         Difficulty difficulty; 
         Song mozart;
 
-        CurrencyControllerComponent currencyController;
-
         //PointAndCurrency System class
         PointAndCurency pointAndCurency; //data class with only static methods for currency values
 
@@ -66,7 +64,6 @@ namespace FluxOfSouls
             difficulty = new Difficulty(this); 
             //pointAndCurrency is instantiated 
             pointAndCurency = new PointAndCurency();
-            currencyController = new CurrencyControllerComponent(this);
             
             //tileMap = new TileMap(this);
 
@@ -114,8 +111,6 @@ namespace FluxOfSouls
             difficulty.Visible = false;
             difficulty.Enabled = false;
             Components.Add(difficulty);
-
-            Components.Add(currencyController);
         }
         protected override void Initialize()
         {
@@ -132,7 +127,7 @@ namespace FluxOfSouls
 
             mozart = Content.Load<Song>(@"Sounds\mozart");
             MediaPlayer.IsRepeating = true;
-            //MediaPlayer.Play(mozart);
+            MediaPlayer.Play(mozart);
         }
 
         protected override void UnloadContent()

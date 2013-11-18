@@ -7,9 +7,12 @@ G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\I
 G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTestContent\obj\x86\Debug\ResolveAssemblyReference.cache
 I:\College Courses\Fall 2013\COMP231\Flux of Souls\IntegratedVer1.4\TilingTest\TilingTestContent\obj\x86\Debug\ResolveAssemblyReference.cache
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Tobias\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTestContent\obj\x86\Debug\ResolveAssemblyReference.cache
 G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\November 16 version\Flux of Souls\TilingTest\TilingTestContent\obj\x86\Debug\ResolveAssemblyReference.cache
 E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\November 16 version\Flux of Souls\TilingTest\TilingTestContent\obj\x86\Debug\IntegratedVer1.1Content.contentprojResolveAssemblyReference.cache
 =======
 C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTestContent\obj\x86\Debug\IntegratedVer1.1Content.contentprojResolveAssemblyReference.cache
 >>>>>>> quick fix
+=======
+>>>>>>> parent of 7124e57... Currency Controller
