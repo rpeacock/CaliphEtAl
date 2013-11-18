@@ -210,6 +210,7 @@ I:\College Courses\Fall 2013\COMP231\Flux of Souls\IntegratedVer1.4\TilingTest\T
 I:\College Courses\Fall 2013\COMP231\Flux of Souls\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\expertbutton.xnb
 I:\College Courses\Fall 2013\COMP231\Flux of Souls\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\normalbutton.xnb
 I:\College Courses\Fall 2013\COMP231\Flux of Souls\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\easybutton.xnb
+<<<<<<< HEAD
 C:\Users\Tobias\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\images\TileSets\part3_tileset.xnb
 C:\Users\Tobias\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\cashSouls.xnb
 C:\Users\Tobias\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\endOfTurn.xnb
@@ -309,3 +310,37 @@ E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\N
 E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\November 16 version\Flux of Souls\TilingTest\TilingTest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\November 16 version\Flux of Souls\TilingTest\TilingTest\obj\x86\Debug\TilingTest.exe
 E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\November 16 version\Flux of Souls\TilingTest\TilingTest\obj\x86\Debug\TilingTest.pdb
+=======
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\images\TileSets\part3_tileset.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\cashSouls.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\endOfTurn.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\nextTurn.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\quit.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\soulGui.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\title.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\upgrade.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\zoneGui.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\endTurn.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\tiles.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\goldCurrency.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\pointCurrency.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\soulCurrency.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\currencyContainer.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\selection.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\newgame.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\viewinstructionsbutton.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\newgamebutton.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\expertbutton.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\normalbutton.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\easybutton.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\fonts\CourierNew.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\mozart.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\mozart.wma
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\TilingTest.exe
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\TilingTest.pdb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\obj\x86\Debug\IntegratedVer1.1.csprojResolveAssemblyReference.cache
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\obj\x86\Debug\TilingTest.exe
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\obj\x86\Debug\TilingTest.pdb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\return.xnb
+>>>>>>> quick fix

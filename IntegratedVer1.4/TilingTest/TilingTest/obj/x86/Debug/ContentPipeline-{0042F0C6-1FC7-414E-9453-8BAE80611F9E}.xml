@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\images\TileSets\part3_tileset.xnb</Output>
-      <Time>2013-11-09T13:18:33.5341797-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\images\TileSets\part3_tileset.xnb</Output>
+      <Time>2013-11-13T12:27:18.9755033-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\cashSouls.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\cashSouls.xnb</Output>
-      <Time>2013-11-09T13:18:33.7294922-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\cashSouls.xnb</Output>
+      <Time>2013-11-13T12:27:19.1996393-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\endOfTurn.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\endOfTurn.xnb</Output>
-      <Time>2013-11-09T13:18:33.7470703-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\endOfTurn.xnb</Output>
+      <Time>2013-11-13T12:27:19.4992739-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\nextTurn.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\nextTurn.xnb</Output>
-      <Time>2013-11-09T13:18:33.7539062-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\nextTurn.xnb</Output>
+      <Time>2013-11-13T12:27:19.5002741-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\quit.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\quit.xnb</Output>
-      <Time>2013-11-09T13:18:33.7568359-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\quit.xnb</Output>
+      <Time>2013-11-13T12:27:19.5012744-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\soulGui.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\soulGui.xnb</Output>
-      <Time>2013-11-09T13:18:33.7617187-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\soulGui.xnb</Output>
+      <Time>2013-11-13T12:27:19.5022755-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\title.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\title.xnb</Output>
-      <Time>2013-11-09T13:18:33.7646484-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\title.xnb</Output>
+      <Time>2013-11-13T12:27:19.5032766-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\upgrade.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\upgrade.xnb</Output>
-      <Time>2013-11-09T13:18:33.7666016-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\upgrade.xnb</Output>
+      <Time>2013-11-13T12:27:19.5032766-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\zoneGui.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\zoneGui.xnb</Output>
-      <Time>2013-11-09T13:18:33.7695312-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\zoneGui.xnb</Output>
+      <Time>2013-11-13T12:27:19.5032766-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\endTurn.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\endTurn.xnb</Output>
-      <Time>2013-11-09T13:18:33.7490234-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\endTurn.xnb</Output>
+      <Time>2013-11-13T12:27:19.4992739-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\tiles.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\tiles.xnb</Output>
-      <Time>2013-11-09T13:18:33.7636719-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\tiles.xnb</Output>
+      <Time>2013-11-13T12:27:19.5022755-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\goldCurrency.png</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\goldCurrency.xnb</Output>
-      <Time>2013-11-09T13:18:33.7509766-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\goldCurrency.xnb</Output>
+      <Time>2013-11-13T12:27:19.4992739-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\pointCurrency.png</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\pointCurrency.xnb</Output>
-      <Time>2013-11-09T13:18:33.7558594-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\pointCurrency.xnb</Output>
+      <Time>2013-11-13T12:27:19.5012744-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\soulCurrency.png</Source>
@@ -124,8 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\soulCurrency.xnb</Output>
-      <Time>2013-11-09T13:18:33.7597656-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\soulCurrency.xnb</Output>
+      <Time>2013-11-13T12:27:19.5022755-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\currencyContainer.png</Source>
@@ -133,8 +133,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\currencyContainer.xnb</Output>
-      <Time>2013-11-09T13:18:33.7304687-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\currencyContainer.xnb</Output>
+      <Time>2013-11-13T12:27:19.1996393-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\selection.png</Source>
@@ -142,8 +142,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\selection.xnb</Output>
-      <Time>2013-11-09T13:18:33.7578125-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\selection.xnb</Output>
+      <Time>2013-11-13T12:27:19.5012744-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\newgame.png</Source>
@@ -151,8 +151,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\newgame.xnb</Output>
-      <Time>2013-11-09T13:18:33.7519531-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\newgame.xnb</Output>
+      <Time>2013-11-13T12:27:19.5002741-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\viewinstructionsbutton.png</Source>
@@ -160,8 +160,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\viewinstructionsbutton.xnb</Output>
-      <Time>2013-11-09T13:18:33.7685547-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\viewinstructionsbutton.xnb</Output>
+      <Time>2013-11-13T12:27:19.5032766-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\newgamebutton.png</Source>
@@ -169,8 +169,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\newgamebutton.xnb</Output>
-      <Time>2013-11-09T13:18:33.7529297-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\newgamebutton.xnb</Output>
+      <Time>2013-11-13T12:27:19.5002741-05:00</Time>
     </Item>
     <Item>
       <Source>fonts\CourierNew.spritefont</Source>
@@ -178,8 +178,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\fonts\CourierNew.xnb</Output>
-      <Time>2013-11-09T13:18:33.5322266-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\fonts\CourierNew.xnb</Output>
+      <Time>2013-11-13T12:27:18.9744975-05:00</Time>
     </Item>
     <Item>
       <Source>sounds\mozart.mp3</Source>
@@ -187,9 +187,9 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\mozart.xnb</Output>
-      <Extra>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\mozart.wma</Extra>
-      <Time>2013-11-09T13:18:33.7236328-08:00</Time>
+      <Output>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\mozart.xnb</Output>
+      <Extra>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\mozart.wma</Extra>
+      <Time>2013-11-13T12:27:19.1986382-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -198,39 +198,39 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTestContent\</RootDirectory>
-      <LoggerRootDirectory>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\</LoggerRootDirectory>
-      <IntermediateDirectory>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>G:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTestContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Randy\Documents\GitHub\CaliphEtAl\IntegratedVer1.4\TilingTest\TilingTest\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2011-09-01T16:22:30-07:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T20:22:30-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2011-09-01T16:22:30-07:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T20:22:30-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2011-09-01T16:22:30-07:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T20:22:30-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2011-09-01T16:22:30-07:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T20:22:30-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2011-09-01T16:22:30-07:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T20:22:30-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2011-09-01T16:22:30-07:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T20:22:30-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2012-10-30T21:36:21.1083984-07:00</Value>
+        <Value>2012-11-19T15:11:42.654615-05:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

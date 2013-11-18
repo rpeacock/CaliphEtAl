@@ -184,6 +184,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="sprites\currencyController.png">
       <Name>currencyController</Name>
       <Importer>TextureImporter</Importer>
@@ -200,6 +201,10 @@
   <ItemGroup>
     <Compile Include="sprites\sellSouls.png">
       <Name>sellSouls</Name>
+=======
+    <Compile Include="sprites\return.png">
+      <Name>return</Name>
+>>>>>>> quick fix
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

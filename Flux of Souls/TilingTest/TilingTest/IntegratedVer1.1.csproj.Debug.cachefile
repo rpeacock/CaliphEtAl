@@ -20,9 +20,13 @@ Content\sprites\newgamebutton.xnb
 Content\sprites\expertbutton.xnb
 Content\sprites\normalbutton.xnb
 Content\sprites\easybutton.xnb
+<<<<<<< HEAD
 Content\sprites\currencyController.xnb
 Content\sprites\getPoints.xnb
 Content\sprites\sellSouls.xnb
+=======
+Content\sprites\return.xnb
+>>>>>>> quick fix
 Content\fonts\CourierNew.xnb
 Content\sounds\mozart.xnb
 Content\sounds\mozart.wma
