@@ -24,6 +24,7 @@ Content\sprites\normalbutton.xnb
 Content\sprites\easybutton.xnb
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Content\sprites\currencyController.xnb
 Content\sprites\getPoints.xnb
 Content\sprites\sellSouls.xnb
@@ -32,6 +33,8 @@ Content\sprites\return.xnb
 >>>>>>> quick fix
 Content\fonts\CourierNew.xnb
 Content\sounds\mozart.xnb
+=======
+>>>>>>> parent of 7124e57... Currency Controller
 =======
 >>>>>>> parent of 7124e57... Currency Controller
 Content\sounds\mozart.wma
