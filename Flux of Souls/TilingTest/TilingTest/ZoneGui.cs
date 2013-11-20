@@ -88,8 +88,7 @@ namespace FluxOfSouls
             idStringPosition = new Vector2(15, 80);
             typeStringPosition = new Vector2(15, 110);
             upgradeCostStringPosition = new Vector2(15, 140);
-            numberOfSoulsStringPosition = new Vector2(620, 17);
-
+            numberOfSoulsStringPosition = new Vector2(15, 170);
             //Loading Textures
             spriteBatch = new SpriteBatch(GraphicsDevice);
             zoneGuiTexture = Game.Content.Load<Texture2D>(@"sprites\zoneGui");
@@ -130,6 +129,7 @@ namespace FluxOfSouls
                 idString = zoneSelected.getZoneIDString();
                 typeString = zoneSelected.getZoneName(zoneSelected.GetZoneType()); //get zone type int.. give it to the GetZoneName and receive string with name of zone type
                 upgradeCostString = zoneSelected.getUpgradeCost();
+                numberOfSoulsString = zoneSelected.getNumberOfSouls();
 
                 this.Visible = true;
                 this.Enabled = true;
@@ -162,6 +162,7 @@ namespace FluxOfSouls
             spriteBatch.DrawString(spriteFont, "Zone ID: " + idString, idStringPosition, Color.Maroon);
             spriteBatch.DrawString(spriteFont, "Zone Type:" + typeString, typeStringPosition, Color.Maroon);
             spriteBatch.DrawString(spriteFont, "Upgrade Cost:" + upgradeCostString, upgradeCostStringPosition, Color.Maroon);
+            spriteBatch.DrawString(spriteFont, "Souls: " + numberOfSoulsString, numberOfSoulsStringPosition, Color.Maroon);
             spriteBatch.End();
             base.Draw(gameTime);
         }

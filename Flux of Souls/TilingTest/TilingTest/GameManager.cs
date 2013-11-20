@@ -18,8 +18,9 @@ namespace FluxOfSouls
         SelectionComponent selectionComponent;
         NewGame newgame;
         Difficulty difficulty;
+        CurrencyControllerComponent currencyController;
 
-        public GameManager(Game1 game, SplashScreenGameComponent splashScreen, EndTurnButtonComponent endTurnButton, ZoneGui zoneGui, SoulGui soulGui, EndOfTurnGui endOfTurnGui, TileMap tileMap, MapComponent mapComponent, PointSystemComponent pointSystemComponent, SelectionComponent selectionComponent, NewGame newgame, Difficulty difficulty)
+        public GameManager(Game1 game, SplashScreenGameComponent splashScreen, EndTurnButtonComponent endTurnButton, ZoneGui zoneGui, SoulGui soulGui, EndOfTurnGui endOfTurnGui, TileMap tileMap, MapComponent mapComponent, PointSystemComponent pointSystemComponent, SelectionComponent selectionComponent, NewGame newgame, Difficulty difficulty, CurrencyControllerComponent currencyController)
         {
             this.splashScreen = splashScreen;
             this.endTurnButton = endTurnButton;
@@ -31,6 +32,7 @@ namespace FluxOfSouls
             this.selectionComponent = selectionComponent;
             this.newgame = newgame;
             this.difficulty = difficulty;
+            this.currencyController = currencyController;
             //Handlers
             splashScreen.VisibleChanged += new EventHandler<EventArgs>(splashScreen_VisibleChanged);
             endOfTurnGui.VisibleChanged += new EventHandler<EventArgs>(endOfTurnGui_VisibleChanged);
@@ -72,7 +74,7 @@ namespace FluxOfSouls
 
         void difficulty_VisibleChanged(object sender, EventArgs e)
         {
-            if (newgame.Visible == false && splashScreen.Visible == false)
+            if (difficulty.Visible == false && splashScreen.Visible == false)
             {
 
                 //Add end turn button component
@@ -91,6 +93,9 @@ namespace FluxOfSouls
                 selectionComponent.Visible = true;
                 selectionComponent.Enabled = true;
 
+                //CurrencyController made visible
+                currencyController.Visible = true;
+                currencyController.Enabled = true;
                
 
 
@@ -136,7 +141,10 @@ namespace FluxOfSouls
                 //Selection gets hidden
                 selectionComponent.Visible = false;
                 selectionComponent.Enabled = false;
-
+                
+                //Currency controller hidden
+                currencyController.Visible = false;
+                currencyController.Enabled = false;
                 //zone or soul guis are hidden.
                 if (zoneGui.Visible == true)
                 {
