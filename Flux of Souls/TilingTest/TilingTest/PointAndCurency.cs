@@ -17,7 +17,6 @@ namespace FluxOfSouls
             souls = 5000;
             points = 0;
         }
-
         static public void SetGold(int newGold)
         {
             gold = newGold;

@@ -91,6 +91,8 @@
     <Compile Include="SplashScreenGameComponent.cs" />
     <Compile Include="Tile.cs" />
     <Compile Include="TileMap.cs" />
+    <Compile Include="Turn.cs" />
+    <Compile Include="TurnComponent.cs" />
     <Compile Include="Zone.cs" />
     <Compile Include="ZoneGui.cs" />
   </ItemGroup>

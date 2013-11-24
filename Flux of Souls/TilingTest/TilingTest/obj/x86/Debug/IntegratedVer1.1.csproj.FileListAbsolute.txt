@@ -376,3 +376,4 @@ C:\Users\Tobias\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\
 C:\Users\Tobias\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Tobias\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\obj\x86\Debug\TilingTest.exe
 C:\Users\Tobias\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\obj\x86\Debug\TilingTest.pdb
+C:\Users\Tobias\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\turn.xnb

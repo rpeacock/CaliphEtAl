@@ -36,6 +36,7 @@ namespace FluxOfSouls
         Song mozart;
 
         CurrencyControllerComponent currencyController;
+        TurnComponent turnComponent;
 
         //PointAndCurrency System class
         PointAndCurency pointAndCurency; //data class with only static methods for currency values
@@ -67,10 +68,11 @@ namespace FluxOfSouls
             //pointAndCurrency is instantiated 
             pointAndCurency = new PointAndCurency();
             currencyController = new CurrencyControllerComponent(this);
+            turnComponent = new TurnComponent(this);
             
             //tileMap = new TileMap(this);
 
-            gameManager = new GameManager(this, splashScreen, endTurnButton, zoneGui, soulGui, endOfTurnGui, tileMap, mapComponent, pointSystemComponent, selectionComponent,newgame, difficulty, currencyController);
+            gameManager = new GameManager(this, splashScreen, endTurnButton, zoneGui, soulGui, endOfTurnGui, tileMap, mapComponent, pointSystemComponent, selectionComponent, newgame, difficulty, currencyController, turnComponent);
 
             //tileMap.Visible = false;
             //tileMap.Enabled = false;
@@ -115,7 +117,13 @@ namespace FluxOfSouls
             difficulty.Enabled = false;
             Components.Add(difficulty);
 
+            currencyController.Visible = false;
+            currencyController.Enabled = false;
             Components.Add(currencyController);
+
+            turnComponent.Visible = false;
+            turnComponent.Enabled = false;
+            Components.Add(turnComponent);
         }
         protected override void Initialize()
         {

@@ -254,6 +254,15 @@
       <Extra>C:\Users\Tobias\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\mozart.wma</Extra>
       <Time>2013-11-23T19:44:53.9394531-08:00</Time>
     </Item>
+    <Item>
+      <Source>sprites\turn.png</Source>
+      <Name>sprites\turn</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tobias\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\turn.xnb</Output>
+      <Time>2013-11-23T20:44:50.7861328-08:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{0042F0C6-1FC7-414E-9453-8BAE80611F9E}</ContentProjectGUID>

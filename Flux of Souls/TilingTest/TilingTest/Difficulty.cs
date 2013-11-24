@@ -90,15 +90,21 @@ namespace FluxOfSouls
 
             if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && easybuttonbuttonrectanglepos.Contains(currentMouseState.X, currentMouseState.Y))
             {
+                PointAndCurency.SetGold(10000);
+                Turn.setDifficulty("easy");
                 StartNewGame();
             }
             if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && normalbuttonrectanglepos.Contains(currentMouseState.X, currentMouseState.Y))
             {
-                
+                PointAndCurency.SetGold(5000);
+                Turn.setDifficulty("normal");
+                StartNewGame();
             }
             if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && expertbuttonrectanglepos.Contains(currentMouseState.X, currentMouseState.Y))
             {
-                
+                PointAndCurency.SetGold(3000);
+                Turn.setDifficulty("hard");
+                StartNewGame();
             }
             pastMouseState = currentMouseState;
             base.Update(gameTime);

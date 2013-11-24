@@ -86,7 +86,18 @@ namespace FluxOfSouls
             }
             if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && nextTurnRectanglePosition.Contains(currentMouseState.X, currentMouseState.Y))
             {
+                int currentTurn = Turn.getCurrentTurn();
+                if(currentTurn == Turn.getLastTurn())
+                {
+                    //End Game Component 
+                    this.Visible = false;
+                    //Score saved
+                }
+                else
+                {
+                Turn.setCurrentTurn(currentTurn + 1);
                 NextTurn();
+                }
             }
             pastMouseState = currentMouseState;
             base.Update(gameTime);
