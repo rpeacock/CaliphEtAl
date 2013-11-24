@@ -21,9 +21,9 @@ Content\sprites\expertbutton.xnb
 Content\sprites\normalbutton.xnb
 Content\sprites\easybutton.xnb
 Content\sprites\return.xnb
-Content\fonts\CourierNew.xnb
-Content\sounds\mozart.xnb
-Content\sounds\mozart.wma
 Content\sprites\currencyController.xnb
 Content\sprites\getPoints.xnb
 Content\sprites\sellSouls.xnb
+Content\fonts\CourierNew.xnb
+Content\sounds\mozart.xnb
+Content\sounds\mozart.wma
