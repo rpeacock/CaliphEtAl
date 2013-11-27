@@ -35,7 +35,7 @@ namespace FluxOfSouls
             positionRectangle = new Rectangle((40 * col) + 300, (30 * row) + 55, 40, 30); //+300 and +55 are positioning the whole map to the right and south     
             this.id = idCounter;
             upgradeCost = 300;
-            numberOfSouls = 100;
+            numberOfSouls = 0;
             idCounter++;
         }
         public String getUpgradeCost()

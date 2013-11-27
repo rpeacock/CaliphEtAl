@@ -83,17 +83,20 @@ namespace FluxOfSouls
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         public override void Update(GameTime gameTime)
         {
+            int currentSouls = PointAndCurency.GetSouls();
             currentMouseState = Mouse.GetState();
             if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && sellSoulsButtonPositionRectangle.Contains(currentMouseState.X, currentMouseState.Y))
             {
-                int currentGold = PointAndCurency.GetGold();
-                int currentSouls = PointAndCurency.GetSouls();
-                if (currentSouls > 100)
+                if (currentSouls > 0)
                 {
-                    currentSouls = currentSouls - 100;
-                    currentGold = currentGold + 75;
-                    PointAndCurency.SetSouls(currentSouls);
-                    PointAndCurency.SetGold(currentGold);
+                    Souls.sellSoul();
+                }
+            }
+            if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && getPointsButtonPositionRectangle.Contains(currentMouseState.X, currentMouseState.Y))
+            {
+                if (currentSouls > 0)
+                {
+                    Souls.scoreSoul();
                 }
             }
             pastMouseState = currentMouseState;
