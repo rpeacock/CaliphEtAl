@@ -31,6 +31,7 @@ namespace FluxOfSouls
         MapComponent mapComponent;
         PointSystemComponent pointSystemComponent;
         SelectionComponent selectionComponent;
+        InstructionsGui instructions;
         NewGame newgame;
         Difficulty difficulty; 
         Song mozart;
@@ -69,10 +70,11 @@ namespace FluxOfSouls
             pointAndCurency = new PointAndCurency();
             currencyController = new CurrencyControllerComponent(this);
             turnComponent = new TurnComponent(this);
+            instructions = new InstructionsGui(this);
             
             //tileMap = new TileMap(this);
 
-            gameManager = new GameManager(this, splashScreen, endTurnButton, zoneGui, soulGui, endOfTurnGui, tileMap, mapComponent, pointSystemComponent, selectionComponent, newgame, difficulty, currencyController, turnComponent);
+            gameManager = new GameManager(this, splashScreen, endTurnButton, zoneGui, soulGui, endOfTurnGui, tileMap, mapComponent, pointSystemComponent, selectionComponent, newgame, difficulty, currencyController, turnComponent, instructions);
 
             //tileMap.Visible = false;
             //tileMap.Enabled = false;
@@ -124,6 +126,10 @@ namespace FluxOfSouls
             turnComponent.Visible = false;
             turnComponent.Enabled = false;
             Components.Add(turnComponent);
+
+            instructions.Visible = false;
+            instructions.Enabled = false;
+            Components.Add(instructions);
         }
         protected override void Initialize()
         {

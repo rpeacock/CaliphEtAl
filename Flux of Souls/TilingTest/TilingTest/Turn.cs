@@ -53,5 +53,6 @@ namespace FluxOfSouls
         {
             return lastTurn;
         }
+
     }
 }

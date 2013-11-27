@@ -34,6 +34,8 @@ namespace FluxOfSouls
         MouseState currentMouseState;
         MouseState pastMouseState;
 
+        public bool quitSession = false;
+
         public EndOfTurnGui(Game game)
             : base(game)
         {
@@ -115,13 +117,28 @@ namespace FluxOfSouls
         //To be implemented
         public void NextTurn()
         {
+            quitSession = false;
             this.Visible = false;
             this.Enabled = false;
         }
 
         public void Quit()
         {
+            List<Zone> zones = MapComponent.GetZones();
+            foreach (Zone zone in zones)
+            {
+                zone.setUpgradeCost(300);
+                zone.setTileType(1);
+                zone.setNumberOfSouls(0);
+            }
+            Turn.setCurrentTurn(1);
 
+            
+            
+            
+            quitSession = true;
+            this.Visible = false;
+            this.Enabled = false;
         }
     }
 }

@@ -42,9 +42,21 @@ namespace FluxOfSouls
         {
             return upgradeCost.ToString();
         }
+        public void setUpgradeCost(int cost)
+        {
+            upgradeCost = cost;
+        }
+        public void setTileType(int zoneType)
+        {
+            this.zoneType = zoneType;
+        }
         public String getNumberOfSouls()
         {
             return numberOfSouls.ToString();
+        }
+        public void setNumberOfSouls(int numberOfSouls)
+        {
+            this.numberOfSouls = numberOfSouls;
         }
         public String getZoneIDString()
         {
