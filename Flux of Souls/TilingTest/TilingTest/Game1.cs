@@ -41,6 +41,8 @@ namespace FluxOfSouls
         //PointAndCurrency System class
         PointAndCurency pointAndCurency; //data class with only static methods for currency values
 
+        //resultscreen
+        ResultScreen resultscreen; 
 
         //Map Components - 3 lines below belong together
         TileMap tileMap;
@@ -69,10 +71,10 @@ namespace FluxOfSouls
             pointAndCurency = new PointAndCurency();
             currencyController = new CurrencyControllerComponent(this);
             turnComponent = new TurnComponent(this);
-            
+            resultscreen = new ResultScreen(this);
             //tileMap = new TileMap(this);
 
-            gameManager = new GameManager(this, splashScreen, endTurnButton, zoneGui, soulGui, endOfTurnGui, tileMap, mapComponent, pointSystemComponent, selectionComponent, newgame, difficulty, currencyController, turnComponent);
+            gameManager = new GameManager(this, splashScreen, endTurnButton, zoneGui, soulGui, endOfTurnGui, tileMap, mapComponent, pointSystemComponent, selectionComponent, newgame, difficulty, currencyController, turnComponent,resultscreen);
 
             //tileMap.Visible = false;
             //tileMap.Enabled = false;
@@ -124,6 +126,10 @@ namespace FluxOfSouls
             turnComponent.Visible = false;
             turnComponent.Enabled = false;
             Components.Add(turnComponent);
+
+            resultscreen.Visible = false;
+            resultscreen.Enabled = false;
+            Components.Add(resultscreen);
         }
         protected override void Initialize()
         {

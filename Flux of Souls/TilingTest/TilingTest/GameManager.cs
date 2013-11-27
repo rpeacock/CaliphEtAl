@@ -20,8 +20,9 @@ namespace FluxOfSouls
         Difficulty difficulty;
         CurrencyControllerComponent currencyController;
         TurnComponent turnComponent;
+        ResultScreen resultscreen;
 
-        public GameManager(Game1 game, SplashScreenGameComponent splashScreen, EndTurnButtonComponent endTurnButton, ZoneGui zoneGui, SoulGui soulGui, EndOfTurnGui endOfTurnGui, TileMap tileMap, MapComponent mapComponent, PointSystemComponent pointSystemComponent, SelectionComponent selectionComponent, NewGame newgame, Difficulty difficulty, CurrencyControllerComponent currencyController, TurnComponent turnComponent)
+        public GameManager(Game1 game, SplashScreenGameComponent splashScreen, EndTurnButtonComponent endTurnButton, ZoneGui zoneGui, SoulGui soulGui, EndOfTurnGui endOfTurnGui, TileMap tileMap, MapComponent mapComponent, PointSystemComponent pointSystemComponent, SelectionComponent selectionComponent, NewGame newgame, Difficulty difficulty, CurrencyControllerComponent currencyController, TurnComponent turnComponent, ResultScreen resultscreen)
         {
             this.splashScreen = splashScreen;
             this.endTurnButton = endTurnButton;
@@ -35,7 +36,7 @@ namespace FluxOfSouls
             this.difficulty = difficulty;
             this.currencyController = currencyController;
             this.turnComponent = turnComponent;
-
+            this.resultscreen = resultscreen;
             //Handlers
             splashScreen.VisibleChanged += new EventHandler<EventArgs>(splashScreen_VisibleChanged);
             endOfTurnGui.VisibleChanged += new EventHandler<EventArgs>(endOfTurnGui_VisibleChanged);
@@ -43,13 +44,20 @@ namespace FluxOfSouls
             selectionComponent.VisibleChanged += new EventHandler<EventArgs>(selectionComponent_VisibleChanged);
             newgame.VisibleChanged += new EventHandler<EventArgs>(newgame_VisibleChanged);
             difficulty.VisibleChanged += new EventHandler<EventArgs>(difficulty_VisibleChanged);
+            resultscreen.VisibleChanged += new EventHandler<EventArgs>(resultscreen_VisibleChanged);
+        }
+
+        void resultscreen_VisibleChanged(object sender, EventArgs e)
+        {
+
         }
 
         void endOfTurnGui_VisibleChanged(object sender, EventArgs e)
         {
             if (endOfTurnGui.Visible == false && splashScreen.Visible == false)
             {
-
+                if (Turn.getCurrentTurn() < Turn.getLastTurn())
+                {
                 //Add end turn button component
                 endTurnButton.Visible = true;
                 endTurnButton.Enabled = true;
@@ -74,6 +82,18 @@ namespace FluxOfSouls
                 //Allows the zoneGui thread to run
                 zoneGui.Visible = true;
                 zoneGui.Enabled = true;
+
+            }
+                if (Turn.getCurrentTurn() == Turn.getLastTurn())
+                {
+                    endOfTurnGui.Enabled = false;
+                    endOfTurnGui.Visible = false;
+                    mapComponent.Visible = false;
+                    resultscreen.Visible = true;
+                    pointSystemComponent.Visible = false;
+
+                }
+
             }
         }
 

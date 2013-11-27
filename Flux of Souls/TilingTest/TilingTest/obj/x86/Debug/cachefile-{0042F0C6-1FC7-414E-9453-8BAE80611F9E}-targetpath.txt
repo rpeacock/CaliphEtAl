@@ -24,7 +24,8 @@ Content\sprites\return.xnb
 Content\sprites\currencyController.xnb
 Content\sprites\getPoints.xnb
 Content\sprites\sellSouls.xnb
+Content\sprites\turn.xnb
 Content\fonts\CourierNew.xnb
 Content\sounds\mozart.xnb
 Content\sounds\mozart.wma
-Content\sprites\turn.xnb
+Content\sprites\resultscreen.xnb

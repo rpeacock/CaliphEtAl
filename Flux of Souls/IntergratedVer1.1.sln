@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegratedVer1.1", "TilingT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegratedVer1.1Content", "TilingTest\TilingTestContent\IntegratedVer1.1Content.contentproj", "{0042F0C6-1FC7-414E-9453-8BAE80611F9E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E8B1BD3B-BA96-4914-9671-CF86FD7945E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
