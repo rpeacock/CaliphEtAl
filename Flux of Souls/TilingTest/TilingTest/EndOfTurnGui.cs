@@ -97,6 +97,7 @@ namespace FluxOfSouls
                 {
                 Turn.setCurrentTurn(currentTurn + 1);
                 NextTurn();
+                Souls.endOfTurn();
                 }
             }
             pastMouseState = currentMouseState;

@@ -263,6 +263,15 @@
       <Extra>C:\Users\300556653\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\mozart.wma</Extra>
       <Time>2013-11-27T12:48:49.0750651-05:00</Time>
     </Item>
+    <Item>
+      <Source>sprites\buySouls.png</Source>
+      <Name>sprites\buySouls</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\300556653\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\buySouls.xnb</Output>
+      <Time>2013-11-27T13:23:50.9953783-05:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{0042F0C6-1FC7-414E-9453-8BAE80611F9E}</ContentProjectGUID>
