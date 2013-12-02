@@ -34,6 +34,8 @@ namespace FluxOfSouls
         MouseState currentMouseState;
         MouseState pastMouseState;
 
+        public bool quitSession = false;
+
         public EndOfTurnGui(Game game)
             : base(game)
         {
@@ -54,7 +56,7 @@ namespace FluxOfSouls
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            
+
             //Loading Textures
             endOfTurnGuiTexture = Game.Content.Load<Texture2D>(@"sprites\endOfTurn");
             quit = Game.Content.Load<Texture2D>(@"sprites\quit");
@@ -78,7 +80,7 @@ namespace FluxOfSouls
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         public override void Update(GameTime gameTime)
         {
-            
+
             currentMouseState = Mouse.GetState();
             if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && quitRectanglePosition.Contains(currentMouseState.X, currentMouseState.Y))
             {
@@ -87,7 +89,7 @@ namespace FluxOfSouls
             if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && nextTurnRectanglePosition.Contains(currentMouseState.X, currentMouseState.Y))
             {
                 int currentTurn = Turn.getCurrentTurn();
-                if(currentTurn == Turn.getLastTurn())
+                if (currentTurn == Turn.getLastTurn())
                 {
                     //End Game Component 
                     this.Visible = false;
@@ -95,8 +97,8 @@ namespace FluxOfSouls
                 }
                 else
                 {
-                Turn.setCurrentTurn(currentTurn + 1);
-                NextTurn();
+                    Turn.setCurrentTurn(currentTurn + 1);
+                    NextTurn();
                 }
             }
             pastMouseState = currentMouseState;
@@ -115,13 +117,28 @@ namespace FluxOfSouls
         //To be implemented
         public void NextTurn()
         {
+            quitSession = false;
             this.Visible = false;
             this.Enabled = false;
         }
 
         public void Quit()
         {
+            List<Zone> zones = MapComponent.GetZones();
+            foreach (Zone zone in zones)
+            {
+                zone.setUpgradeCost(300);
+                zone.setTileType(1);
+                zone.setNumberOfSouls(0);
+            }
+            Turn.setCurrentTurn(1);
 
+
+
+
+            quitSession = true;
+            this.Visible = false;
+            this.Enabled = false;
         }
     }
 }

@@ -179,7 +179,7 @@ namespace FluxOfSouls
 
         public void returnSouls()
         {
-            
+            Souls.returnSoul(Zone.GetSelectedZone());
         }
 
 

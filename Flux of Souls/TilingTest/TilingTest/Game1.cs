@@ -31,9 +31,11 @@ namespace FluxOfSouls
         MapComponent mapComponent;
         PointSystemComponent pointSystemComponent;
         SelectionComponent selectionComponent;
+        InstructionsGui instructions;
         NewGame newgame;
         Difficulty difficulty; 
-        Song mozart;
+        Song titleMusic;
+        ResultScreen resultscreen; 
 
         CurrencyControllerComponent currencyController;
         TurnComponent turnComponent;
@@ -69,10 +71,12 @@ namespace FluxOfSouls
             pointAndCurency = new PointAndCurency();
             currencyController = new CurrencyControllerComponent(this);
             turnComponent = new TurnComponent(this);
+            instructions = new InstructionsGui(this);
+            resultscreen = new ResultScreen(this);
             
             //tileMap = new TileMap(this);
 
-            gameManager = new GameManager(this, splashScreen, endTurnButton, zoneGui, soulGui, endOfTurnGui, tileMap, mapComponent, pointSystemComponent, selectionComponent, newgame, difficulty, currencyController, turnComponent);
+            gameManager = new GameManager(this, splashScreen, endTurnButton, zoneGui, soulGui, endOfTurnGui, tileMap, mapComponent, pointSystemComponent, selectionComponent, newgame, difficulty, currencyController, turnComponent, instructions, resultscreen);
 
             //tileMap.Visible = false;
             //tileMap.Enabled = false;
@@ -124,6 +128,15 @@ namespace FluxOfSouls
             turnComponent.Visible = false;
             turnComponent.Enabled = false;
             Components.Add(turnComponent);
+
+            instructions.Visible = false;
+            instructions.Enabled = false;
+            Components.Add(instructions);
+
+            resultscreen.Visible = false;
+            resultscreen.Enabled = false;
+            Components.Add(resultscreen);
+
         }
         protected override void Initialize()
         {
@@ -138,9 +151,9 @@ namespace FluxOfSouls
             //Tile.TileSetTexture = Content.Load<Texture2D>(@"images\TileSets\part3_tileset");
             // TODO: use this.Content to load your game content here
 
-            mozart = Content.Load<Song>(@"Sounds\mozart");
+            titleMusic = Content.Load<Song>(@"Sounds\TitleScreen");
             MediaPlayer.IsRepeating = true;
-            MediaPlayer.Play(mozart);
+            MediaPlayer.Play(titleMusic);
         }
 
         protected override void UnloadContent()

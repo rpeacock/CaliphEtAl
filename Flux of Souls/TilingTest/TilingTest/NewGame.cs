@@ -39,6 +39,8 @@ namespace FluxOfSouls
         MouseState currentMouseState;
         MouseState pastMouseState;
 
+        public bool newGameSession;
+
         public NewGame(Game game)
             : base(game)
         {
@@ -118,11 +120,14 @@ namespace FluxOfSouls
 
         public void ViewInstructions()
         {
-
+            newGameSession = false;
+            this.Enabled = false;
+            this.Visible = false;
         }
 
        public void StartNewGame()
         {
+            newGameSession = true;
             this.Enabled = false;
             this.Visible = false;
         }
