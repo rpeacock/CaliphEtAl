@@ -133,7 +133,10 @@ namespace FluxOfSouls
                 zone.setNumberOfSouls(0);
             }
             Turn.setCurrentTurn(1);
-
+            PointAndCurency.SetSouls(0);
+            PointAndCurency.SetPoints(0);
+            PointAndCurency.SetGold(0);
+            Souls.souls = new List<Soul>();
 
 
 

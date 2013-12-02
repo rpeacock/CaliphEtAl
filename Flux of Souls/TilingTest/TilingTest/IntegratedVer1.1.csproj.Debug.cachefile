@@ -25,8 +25,6 @@ Content\sprites\currencyController.xnb
 Content\sprites\getPoints.xnb
 Content\sprites\sellSouls.xnb
 Content\sprites\turn.xnb
-Content\fonts\CourierNew.xnb
-Content\sounds\mozart.xnb
 Content\sprites\back.xnb
 Content\sprites\buySouls.xnb
 Content\sprites\instructions.xnb
@@ -34,6 +32,8 @@ Content\next.xnb
 Content\sprites\next.xnb
 Content\sprites\prev.xnb
 Content\sprites\resultscreen.xnb
+Content\fonts\CourierNew.xnb
+Content\sounds\mozart.xnb
 Content\sounds\TitleScreen.xnb
 Content\sounds\mozart.wma
 Content\sounds\TitleScreen.wma
