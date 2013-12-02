@@ -98,6 +98,7 @@ namespace FluxOfSouls
                 else
                 {
                     Turn.setCurrentTurn(currentTurn + 1);
+                    Souls.endOfTurn();
                     NextTurn();
                 }
             }

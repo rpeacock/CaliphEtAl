@@ -22,17 +22,19 @@ namespace FluxOfSouls
         Texture2D controllerContainerTexture;
         Texture2D getPointsButtonTexture;
         Texture2D sellSoulsButtonTexture;
+        Texture2D buySoulsButtonTexture;
 
         //What to draw
         Rectangle controllerContainerDrawableRectangle;
         Rectangle getPointsButtonDrawableRectangle;
         Rectangle sellSoulsButtonDrawableRectangle;
+        Rectangle buySoulsButtonDrawableRectangle;
 
         //where to draw and what size
         Rectangle controllerContainerPositionRectangle;
         Rectangle getPointsButtonPositionRectangle;
         Rectangle sellSoulsButtonPositionRectangle;
-
+        Rectangle buySoulsButtonPositionRectangle;
         //MouseStates
         MouseState currentMouseState;
         MouseState pastMouseState;
@@ -62,16 +64,18 @@ namespace FluxOfSouls
             controllerContainerTexture = Game.Content.Load<Texture2D>(@"sprites\currencyController");
             getPointsButtonTexture = Game.Content.Load<Texture2D>(@"sprites\getPoints");
             sellSoulsButtonTexture = Game.Content.Load<Texture2D>(@"sprites\sellSouls");
+            buySoulsButtonTexture = Game.Content.Load<Texture2D>(@"sprites\buySouls");
 
             controllerContainerDrawableRectangle = new Rectangle(0, 0, controllerContainerTexture.Bounds.Width, controllerContainerTexture.Bounds.Height);
             getPointsButtonDrawableRectangle = new Rectangle(0, 0, getPointsButtonTexture.Bounds.Width, getPointsButtonTexture.Bounds.Height);
             sellSoulsButtonDrawableRectangle = new Rectangle(0, 0, sellSoulsButtonTexture.Bounds.Width, sellSoulsButtonTexture.Bounds.Height);
+            buySoulsButtonDrawableRectangle = new Rectangle(0, 0, buySoulsButtonTexture.Bounds.Width, buySoulsButtonTexture.Bounds.Height);
 
             //+200 is sending the whole component to the right
             controllerContainerPositionRectangle = new Rectangle(0 + 700, 50, controllerContainerTexture.Bounds.Width, controllerContainerTexture.Bounds.Height);
             getPointsButtonPositionRectangle = new Rectangle(16 + 700, 80, getPointsButtonTexture.Bounds.Width, getPointsButtonTexture.Bounds.Height);
             sellSoulsButtonPositionRectangle = new Rectangle(16 + 700, 160, sellSoulsButtonTexture.Bounds.Width, sellSoulsButtonTexture.Bounds.Height);
-
+            buySoulsButtonPositionRectangle = new Rectangle(16 + 700, 240, buySoulsButtonTexture.Bounds.Width, buySoulsButtonTexture.Bounds.Height);
 
 
 
@@ -99,6 +103,10 @@ namespace FluxOfSouls
                     Souls.scoreSoul();
                 }
             }
+            if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && buySoulsButtonPositionRectangle.Contains(currentMouseState.X, currentMouseState.Y))
+            {
+                    Souls.buySoul();
+            }
             pastMouseState = currentMouseState;
 
             base.Update(gameTime);
@@ -109,6 +117,7 @@ namespace FluxOfSouls
             spriteBatch.Draw(controllerContainerTexture, controllerContainerPositionRectangle, controllerContainerDrawableRectangle, Color.White);
             spriteBatch.Draw(getPointsButtonTexture, getPointsButtonPositionRectangle, getPointsButtonDrawableRectangle, Color.White);
             spriteBatch.Draw(sellSoulsButtonTexture, sellSoulsButtonPositionRectangle, sellSoulsButtonDrawableRectangle, Color.White);
+            spriteBatch.Draw(buySoulsButtonTexture, buySoulsButtonPositionRectangle, buySoulsButtonDrawableRectangle, Color.White);
             spriteBatch.End();
             base.Draw(gameTime);
         }

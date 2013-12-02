@@ -132,6 +132,7 @@ namespace FluxOfSouls
 
                 if (Turn.getCurrentTurn() == Turn.getLastTurn())
                 {
+                    Souls.endOfGame();
                     endOfTurnGui.Enabled = false;
                     endOfTurnGui.Visible = false;
                     mapComponent.Visible = false;

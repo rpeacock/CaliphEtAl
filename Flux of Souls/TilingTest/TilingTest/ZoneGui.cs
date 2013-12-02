@@ -148,6 +148,11 @@ namespace FluxOfSouls
                 {
                     returnSouls();
                 }
+
+                if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && cashSoulsRectanglePosition.Contains(currentMouseState.X, currentMouseState.Y))
+                {
+                    CashSouls();
+                }
                 pastMouseState = currentMouseState;
             }
             base.Update(gameTime);
@@ -174,12 +179,15 @@ namespace FluxOfSouls
         }
         public void CashSouls()
         {
-
+            Souls.scoreSoul(Convert.ToInt32(Zone.GetSelectedZone().getNumberOfSouls()));
         }
 
         public void returnSouls()
         {
-            Souls.returnSoul(Zone.GetSelectedZone());
+            if (PointAndCurency.GetSouls() > 0)
+            {
+                Souls.returnSoul(Zone.GetSelectedZone());
+            }
         }
 
 

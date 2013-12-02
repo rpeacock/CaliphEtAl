@@ -43,24 +43,34 @@ namespace FluxOfSouls
                 tileID = 0
             });
         }
-        public static void buySoul(int soulLevel, int tile)
+        public static void buySoul()
         {
-            allSoul++;
-            souls.Add(new Soul
+            int currentGold = PointAndCurency.GetGold();
+            int currentSouls = PointAndCurency.GetSouls();
+            if (currentGold >= 100)
             {
-                soulNumber = allSoul,
-                soulName = "alive",
-                age = 0,
-                maxAge = random.Next(30, 140),
-                goodLevel = soulLevel,
-                tileID = tile
-            });
+                currentGold = currentGold - 100;
+                currentSouls = currentSouls + 1;
+                PointAndCurency.SetSouls(currentSouls);
+                PointAndCurency.SetGold(currentGold);
+                allSoul++;
+                souls.Add(new Soul
+                {
+                    soulNumber = allSoul,
+                    soulName = "currency",
+                    age = 0,
+                    maxAge = random.Next(30, 140),
+                    goodLevel = random.Next(-10, 35),
+                    tileID = 0
+                });
+            }
         }
         public static void sellSoul()
         {
             int currentGold = PointAndCurency.GetGold();
             int currentSouls = PointAndCurency.GetSouls();
             int selling = 0;
+            int soulID = 0;
             foreach (var soul in souls)
             {
                 if (soul.soulName == "currency" && selling == 0)
@@ -71,13 +81,26 @@ namespace FluxOfSouls
                     soul.soulName = "sold";
                     PointAndCurency.SetSouls(currentSouls);
                     PointAndCurency.SetGold(currentGold);
+                    soul.soulNumber = soulID;
                 }
+                
             }
         }
         public static void returnSoul(Zone zone)
         {
-            
-            foreach (var soul in souls)
+
+            int numSouls = Convert.ToInt32(zone.getNumberOfSouls());
+            int soulsOnHand = PointAndCurency.GetSouls();
+
+            if (zone.GetZoneType() >= 2)
+            {
+                zone.setNumberOfSouls(numSouls + 1);
+                PointAndCurency.SetSouls(soulsOnHand - 1);
+            }
+
+
+
+            /*foreach (var soul in souls)
             {
                 if (soul.soulName == "currency")
                 {
@@ -85,10 +108,9 @@ namespace FluxOfSouls
                     soul.age = 0;
                     soul.maxAge = random.Next(30, 140);
                     soul.goodLevel = soul.goodLevel - 2;
-                    soul.tileID = Convert.ToInt32(zone.getZoneIDString());
                     
                 }
-            }
+            }*/
         }
         public static void scoreSoul()
         {
@@ -101,6 +123,25 @@ namespace FluxOfSouls
                 {
                     currentPoints = (currentPoints + soul.goodLevel);
                     currentSouls = currentSouls - 1;
+                    selling++;
+                    soul.soulName = "point";
+                    PointAndCurency.SetSouls(currentSouls);
+                    PointAndCurency.SetPoints(currentPoints);
+                }
+            }
+        }
+
+        public static void scoreSoul(int numSouls)
+        {
+            int currentPoints = PointAndCurency.GetPoints();
+            int currentSouls = PointAndCurency.GetSouls();
+            int selling = 0;
+            foreach (var soul in souls)
+            {
+                if (soul.soulName == "currency" && selling < numSouls)
+                {
+                    currentPoints = (currentPoints + soul.goodLevel);
+                    //currentSouls = currentSouls - 1;
                     selling++;
                     soul.soulName = "point";
                     PointAndCurency.SetSouls(currentSouls);
@@ -123,6 +164,39 @@ namespace FluxOfSouls
             }
             return null;
         }
+        public static void babySoul()
+        {
+            int cluster = 0;
+            for (int x = 1; x < 101; x++)
+            {
+                cluster = 0;
+                foreach (var soul in souls)
+                {
+                    if (soul.tileID == x && soul.age >= 16)
+                    {
+                        cluster = cluster + 1;
+                    }
+                }
+                cluster = cluster / 2;
+                while (cluster > 2)
+                {
+                    if (random.Next(0, 5) == 3)
+                    { 
+                        allSoul++;
+                        souls.Add(new Soul
+                        {
+                            soulNumber = allSoul,
+                            soulName = "alive",
+                            age = 0,
+                            maxAge = random.Next(30, 140),
+                            goodLevel = random.Next(10, 45),
+                            tileID = x
+                        });
+                    }
+                    cluster = cluster - 2;
+                }
+            }
+        }
         public static void endOfTurn()
         {
             int points = PointAndCurency.GetPoints();
@@ -143,9 +217,33 @@ namespace FluxOfSouls
                 }
             }
             resourceMangement();
+            babySoul();
             points = (int)(points * 1.2);
             PointAndCurency.SetPoints(points);
         }
-
+        public static void endOfGame()
+        {
+            int currentGold = PointAndCurency.GetGold();
+            int currentPoints = PointAndCurency.GetPoints();
+            if (currentGold >= 80)
+            {
+                currentGold = currentGold / 80;
+                currentPoints = currentPoints + currentGold;
+            }
+            foreach (var soul in souls)
+            {
+                if (soul.soulName == "alive")
+                {
+                    currentPoints = currentPoints + (soul.goodLevel - (soul.maxAge - soul.age));
+                    PointAndCurency.SetPoints(currentPoints);
+                }
+                else if (soul.soulName == "currency")
+                {
+                    currentPoints = PointAndCurency.GetPoints();
+                    currentPoints = currentPoints + (soul.goodLevel / 2);
+                    PointAndCurency.SetPoints(currentPoints);
+                }
+            }
+        }
     }
 }
