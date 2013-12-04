@@ -19,6 +19,9 @@ namespace FluxOfSouls
     {
         SpriteBatch spriteBatch;
 
+        //Sound Effect
+        SoundEffect buttonClick;
+
         Texture2D controllerContainerTexture;
         Texture2D getPointsButtonTexture;
         Texture2D sellSoulsButtonTexture;
@@ -77,7 +80,8 @@ namespace FluxOfSouls
             sellSoulsButtonPositionRectangle = new Rectangle(16 + 700, 160, sellSoulsButtonTexture.Bounds.Width, sellSoulsButtonTexture.Bounds.Height);
             buySoulsButtonPositionRectangle = new Rectangle(16 + 700, 240, buySoulsButtonTexture.Bounds.Width, buySoulsButtonTexture.Bounds.Height);
 
-
+            //Sound Effect
+            buttonClick = Game.Content.Load<SoundEffect>(@"sounds\Warble");
 
             base.LoadContent();
         }
@@ -93,6 +97,7 @@ namespace FluxOfSouls
             {
                 if (currentSouls > 0)
                 {
+                    buttonClick.Play();
                     Souls.sellSoul();
                 }
             }
@@ -100,11 +105,13 @@ namespace FluxOfSouls
             {
                 if (currentSouls > 0)
                 {
+                    buttonClick.Play();
                     Souls.scoreSoul();
                 }
             }
             if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && buySoulsButtonPositionRectangle.Contains(currentMouseState.X, currentMouseState.Y))
             {
+                buttonClick.Play();
                     Souls.buySoul();
             }
             pastMouseState = currentMouseState;

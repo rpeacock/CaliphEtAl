@@ -41,6 +41,11 @@ namespace FluxOfSouls
         MouseState currentMouseState;
         MouseState pastMouseState;
 
+        //sound effects
+        SoundEffect splash;
+        SoundEffect ohNo;
+        SoundEffect pew;
+
         //Selected Zone. Used to know when a zone is selected to therefore only draw the zoneGui when a zone is selected.
         Zone zoneSelected;
 
@@ -112,6 +117,11 @@ namespace FluxOfSouls
             returnSoulsRectangle = new Rectangle(0, 0, returnSoulsTexture.Width, returnSoulsTexture.Height);
             returnSoulsRectanglePosition = new Rectangle(20, 300, returnSoulsTexture.Width, returnSoulsTexture.Height);
 
+            // Sound Effects
+            splash = Game.Content.Load<SoundEffect>(@"sounds\splash2");
+            ohNo = Game.Content.Load<SoundEffect>(@"sounds\end");
+            pew = Game.Content.Load<SoundEffect>(@"sounds\pew");
+
             base.LoadContent();
         }
         
@@ -141,7 +151,10 @@ namespace FluxOfSouls
                 }
                 if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && upgradeRectanglePosition.Contains(currentMouseState.X, currentMouseState.Y))
                 {
-
+                    if (Zone.GetSelectedZone().GetZoneType() != 5)
+                    {
+                        splash.Play();
+                    }
                     Upgrade(Zone.GetSelectedZone());
                 }
                 if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && returnSoulsRectanglePosition.Contains(currentMouseState.X, currentMouseState.Y))
@@ -149,10 +162,10 @@ namespace FluxOfSouls
                     returnSouls();
                 }
 
-                if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && cashSoulsRectanglePosition.Contains(currentMouseState.X, currentMouseState.Y))
+              /*  if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && cashSoulsRectanglePosition.Contains(currentMouseState.X, currentMouseState.Y))
                 {
                     CashSouls();
-                }
+                }*/
                 pastMouseState = currentMouseState;
             }
             base.Update(gameTime);
@@ -179,13 +192,19 @@ namespace FluxOfSouls
         }
         public void CashSouls()
         {
+            if ((Convert.ToInt32(Zone.GetSelectedZone().getNumberOfSouls()) > 0))
+            {
+                ohNo.Play();
+            }
             Souls.scoreSoul(Convert.ToInt32(Zone.GetSelectedZone().getNumberOfSouls()));
+            Zone.GetSelectedZone().setNumberOfSouls(0);
         }
 
         public void returnSouls()
         {
             if (PointAndCurency.GetSouls() > 0)
             {
+                pew.Play();
                 Souls.returnSoul(Zone.GetSelectedZone());
             }
         }

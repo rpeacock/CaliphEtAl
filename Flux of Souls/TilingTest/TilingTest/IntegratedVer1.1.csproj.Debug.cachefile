@@ -39,7 +39,10 @@ Content\sprites\submit.xnb
 Content\sprites\textBox.xnb
 Content\sprites\submitHighscoreBox.xnb
 Content\fonts\CourierNew.xnb
-Content\sounds\mozart.xnb
 Content\sounds\TitleScreen.xnb
-Content\sounds\mozart.wma
+Content\sounds\Warble.xnb
+Content\sounds\splash2.xnb
+Content\sounds\Tornado.xnb
+Content\sounds\pew.xnb
+Content\sounds\end.xnb
 Content\sounds\TitleScreen.wma

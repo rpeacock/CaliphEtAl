@@ -298,8 +298,6 @@ C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\b
 C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\easybutton.xnb
 C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\return.xnb
 C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\fonts\CourierNew.xnb
-C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\mozart.xnb
-C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\mozart.wma
 C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\TilingTest.exe
 C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\TilingTest.pdb
 C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\obj\x86\Debug\IntegratedVer1.1.csprojResolveAssemblyReference.cache
@@ -553,3 +551,14 @@ C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\obj\x8
 C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\obj\x86\Debug\TilingTest.exe
 C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\obj\x86\Debug\TilingTest.pdb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\highscores.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\menu.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\highscoreGUI.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\submit.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\textBox.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\submitHighscoreBox.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\Warble.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\splash2.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\Tornado.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\pew.xnb
+C:\Users\Randy\Documents\GitHub\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\end.xnb
