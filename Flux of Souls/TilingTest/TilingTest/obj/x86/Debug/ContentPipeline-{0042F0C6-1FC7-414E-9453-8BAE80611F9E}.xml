@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\images\TileSets\part3_tileset.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\images\TileSets\part3_tileset.xnb</Output>
       <Time>2013-12-02T13:17:47.9210187-05:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\cashSouls.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\cashSouls.xnb</Output>
       <Time>2013-12-02T13:17:48.0260292-05:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\endOfTurn.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\endOfTurn.xnb</Output>
       <Time>2013-12-02T13:17:48.0310297-05:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\nextTurn.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\nextTurn.xnb</Output>
       <Time>2013-12-02T13:17:48.0420308-05:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\quit.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\quit.xnb</Output>
       <Time>2013-12-02T13:17:48.0490315-05:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\soulGui.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\soulGui.xnb</Output>
       <Time>2013-12-02T13:17:48.0560322-05:00</Time>
     </Item>
     <Item>
@@ -61,7 +61,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\title.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\title.xnb</Output>
       <Time>2013-12-02T13:17:48.0590325-05:00</Time>
     </Item>
     <Item>
@@ -70,7 +70,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\upgrade.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\upgrade.xnb</Output>
       <Time>2013-12-02T13:17:48.064033-05:00</Time>
     </Item>
     <Item>
@@ -79,7 +79,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\zoneGui.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\zoneGui.xnb</Output>
       <Time>2013-12-02T13:17:48.0670333-05:00</Time>
     </Item>
     <Item>
@@ -88,7 +88,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\endTurn.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\endTurn.xnb</Output>
       <Time>2013-12-02T13:17:48.0320298-05:00</Time>
     </Item>
     <Item>
@@ -97,7 +97,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\tiles.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\tiles.xnb</Output>
       <Time>2013-12-02T13:17:48.0570323-05:00</Time>
     </Item>
     <Item>
@@ -106,7 +106,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\goldCurrency.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\goldCurrency.xnb</Output>
       <Time>2013-12-02T13:17:48.0350301-05:00</Time>
     </Item>
     <Item>
@@ -115,7 +115,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\pointCurrency.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\pointCurrency.xnb</Output>
       <Time>2013-12-02T13:17:48.044031-05:00</Time>
     </Item>
     <Item>
@@ -124,7 +124,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\soulCurrency.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\soulCurrency.xnb</Output>
       <Time>2013-12-02T13:17:48.0550321-05:00</Time>
     </Item>
     <Item>
@@ -133,7 +133,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\currencyContainer.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\currencyContainer.xnb</Output>
       <Time>2013-12-02T13:17:48.0270293-05:00</Time>
     </Item>
     <Item>
@@ -142,7 +142,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\selection.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\selection.xnb</Output>
       <Time>2013-12-02T13:17:48.0530319-05:00</Time>
     </Item>
     <Item>
@@ -151,7 +151,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\newgame.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\newgame.xnb</Output>
       <Time>2013-12-02T13:17:48.0380304-05:00</Time>
     </Item>
     <Item>
@@ -160,7 +160,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\viewinstructionsbutton.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\viewinstructionsbutton.xnb</Output>
       <Time>2013-12-02T13:17:48.0660332-05:00</Time>
     </Item>
     <Item>
@@ -169,7 +169,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\newgamebutton.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\newgamebutton.xnb</Output>
       <Time>2013-12-02T13:17:48.0390305-05:00</Time>
     </Item>
     <Item>
@@ -178,7 +178,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\expertbutton.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\expertbutton.xnb</Output>
       <Time>2013-12-02T13:17:48.0330299-05:00</Time>
     </Item>
     <Item>
@@ -187,7 +187,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\normalbutton.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\normalbutton.xnb</Output>
       <Time>2013-12-02T13:17:48.0430309-05:00</Time>
     </Item>
     <Item>
@@ -196,7 +196,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\easybutton.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\easybutton.xnb</Output>
       <Time>2013-12-02T13:17:48.0290295-05:00</Time>
     </Item>
     <Item>
@@ -205,7 +205,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\return.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\return.xnb</Output>
       <Time>2013-12-02T13:17:48.0520318-05:00</Time>
     </Item>
     <Item>
@@ -214,7 +214,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\currencyController.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\currencyController.xnb</Output>
       <Time>2013-12-02T13:17:48.0280294-05:00</Time>
     </Item>
     <Item>
@@ -223,7 +223,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\getPoints.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\getPoints.xnb</Output>
       <Time>2013-12-02T13:17:48.03403-05:00</Time>
     </Item>
     <Item>
@@ -232,7 +232,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\sellSouls.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\sellSouls.xnb</Output>
       <Time>2013-12-02T13:17:48.054032-05:00</Time>
     </Item>
     <Item>
@@ -241,7 +241,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\turn.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\turn.xnb</Output>
       <Time>2013-12-02T13:17:48.0630329-05:00</Time>
     </Item>
     <Item>
@@ -250,7 +250,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\back.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\back.xnb</Output>
       <Time>2013-12-02T13:17:48.0230289-05:00</Time>
     </Item>
     <Item>
@@ -259,7 +259,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\buySouls.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\buySouls.xnb</Output>
       <Time>2013-12-02T13:17:48.024029-05:00</Time>
     </Item>
     <Item>
@@ -268,7 +268,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\instructions.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\instructions.xnb</Output>
       <Time>2013-12-02T13:17:48.0370303-05:00</Time>
     </Item>
     <Item>
@@ -277,7 +277,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\next.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\next.xnb</Output>
       <Time>2013-12-02T13:17:47.9220188-05:00</Time>
     </Item>
     <Item>
@@ -286,7 +286,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\next.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\next.xnb</Output>
       <Time>2013-12-02T13:17:48.0400306-05:00</Time>
     </Item>
     <Item>
@@ -295,7 +295,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\prev.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\prev.xnb</Output>
       <Time>2013-12-02T13:17:48.0470313-05:00</Time>
     </Item>
     <Item>
@@ -304,7 +304,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\resultscreen.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\resultscreen.xnb</Output>
       <Time>2013-12-02T13:17:48.0500316-05:00</Time>
     </Item>
     <Item>
@@ -313,7 +313,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\highscores.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\highscores.xnb</Output>
       <Time>2013-12-02T13:24:51.1023326-05:00</Time>
     </Item>
     <Item>
@@ -322,7 +322,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\menu.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\menu.xnb</Output>
       <Time>2013-12-02T13:24:58.247047-05:00</Time>
     </Item>
     <Item>
@@ -331,7 +331,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\highscoreGUI.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\highscoreGUI.xnb</Output>
       <Time>2013-12-02T13:25:01.8624085-05:00</Time>
     </Item>
     <Item>
@@ -340,7 +340,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\submit.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\submit.xnb</Output>
       <Time>2013-12-02T13:25:14.5356757-05:00</Time>
     </Item>
     <Item>
@@ -349,7 +349,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\textBox.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\textBox.xnb</Output>
       <Time>2013-12-02T13:25:20.3652586-05:00</Time>
     </Item>
     <Item>
@@ -358,7 +358,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\submitHighscoreBox.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\submitHighscoreBox.xnb</Output>
       <Time>2013-12-02T13:25:24.1636384-05:00</Time>
     </Item>
     <Item>
@@ -367,7 +367,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\fonts\CourierNew.xnb</Output>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\fonts\CourierNew.xnb</Output>
       <Time>2013-12-02T13:17:47.9190185-05:00</Time>
     </Item>
     <Item>
@@ -376,8 +376,8 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\mozart.xnb</Output>
-      <Extra>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\mozart.wma</Extra>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\mozart.xnb</Output>
+      <Extra>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\mozart.wma</Extra>
       <Time>2013-12-02T13:17:48.0150281-05:00</Time>
     </Item>
     <Item>
@@ -386,8 +386,8 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\TitleScreen.xnb</Output>
-      <Extra>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\TitleScreen.wma</Extra>
+      <Output>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\TitleScreen.xnb</Output>
+      <Extra>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\TitleScreen.wma</Extra>
       <Time>2013-12-02T13:17:47.9520218-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -397,10 +397,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTestContent\</RootDirectory>
-      <LoggerRootDirectory>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\</LoggerRootDirectory>
-      <IntermediateDirectory>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>E:\CentennialCollege\Classes\Semester5\COMP-231 Software Development Project 1\December 2 version\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTestContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\300652384\Desktop\CaliphEtAl\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
