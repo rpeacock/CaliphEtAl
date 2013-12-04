@@ -35,11 +35,17 @@ namespace FluxOfSouls
         Rectangle quitbuttonrectangle;
         Rectangle quitbuttonrectanglepos;
 
+        Texture2D highscoreButton;
+        Rectangle highscoreButtonRectangle;
+        Rectangle highscoreButtonRectanglepos;
+
         //MouseStates
         MouseState currentMouseState;
         MouseState pastMouseState;
 
         public bool newGameSession;
+        public bool isViewingHighScores;
+        public bool isViewingInstructions;
 
         public NewGame(Game game)
             : base(game)
@@ -69,18 +75,22 @@ namespace FluxOfSouls
             instructionsButton = Game.Content.Load<Texture2D>(@"sprites\viewinstructionsbutton");
             quitbutton = Game.Content.Load<Texture2D>(@"sprites\quit");
             newgamebutton = Game.Content.Load<Texture2D>(@"sprites\newgamebutton");
+            highscoreButton = Game.Content.Load<Texture2D>(@"sprites\highscores");
 
             newgameRectangle = new Rectangle(0, 0, newgametexture.Width, newgametexture.Height);
             newgameRectanglePosition = new Rectangle(0, 0, (int)(newgametexture.Width), GraphicsDevice.Viewport.Bounds.Height);
 
-            instructionbuttonrectangle = new Rectangle(0, 0, instructionsButton.Bounds.Width, quitbutton.Bounds.Height);
-            instructionbuttonrectanglepos = new Rectangle(115, 230, instructionsButton.Bounds.Width, instructionsButton.Bounds.Height);
-
             newgamebuttonrectangle = new Rectangle(0, 0, newgamebutton.Bounds.Width, newgamebutton.Bounds.Height);
-            newgamebuttonrectanglepos = new Rectangle(115, 115, newgamebutton.Bounds.Width, newgamebutton.Bounds.Height);
+            newgamebuttonrectanglepos = new Rectangle(115, 150, newgamebutton.Bounds.Width, newgamebutton.Bounds.Height);
+
+            instructionbuttonrectangle = new Rectangle(0, 0, instructionsButton.Bounds.Width, quitbutton.Bounds.Height);
+            instructionbuttonrectanglepos = new Rectangle(115, 210, instructionsButton.Bounds.Width, instructionsButton.Bounds.Height);
+
+            highscoreButtonRectangle = new Rectangle(0, 0, highscoreButton.Width, highscoreButton.Height);
+            highscoreButtonRectanglepos = new Rectangle(115, 270, highscoreButton.Width, highscoreButton.Height);
 
             quitbuttonrectangle = new Rectangle(0, 0, quitbutton.Bounds.Width, quitbutton.Bounds.Height);
-            quitbuttonrectanglepos = new Rectangle(115, 345, quitbutton.Bounds.Width, quitbutton.Bounds.Height);
+            quitbuttonrectanglepos = new Rectangle(115, 330, quitbutton.Bounds.Width, quitbutton.Bounds.Height);
 
             base.LoadContent();
         } 
@@ -102,6 +112,10 @@ namespace FluxOfSouls
             {
                 ViewInstructions();
             }
+            if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && highscoreButtonRectanglepos.Contains(currentMouseState.X, currentMouseState.Y))
+            {
+                ViewHighscores();
+            }
             pastMouseState = currentMouseState;
             base.Update(gameTime);
         }
@@ -114,13 +128,16 @@ namespace FluxOfSouls
             spriteBatch.Draw(newgamebutton, newgamebuttonrectanglepos,quitbuttonrectangle, Color.White);
             spriteBatch.Draw(quitbutton, quitbuttonrectanglepos, quitbuttonrectangle, Color.White);
             spriteBatch.Draw(instructionsButton, instructionbuttonrectanglepos, instructionbuttonrectangle, Color.White);
+            spriteBatch.Draw(highscoreButton, highscoreButtonRectanglepos, highscoreButtonRectangle, Color.White);
             spriteBatch.End();
             base.Draw(gameTime);
         }
 
         public void ViewInstructions()
         {
+            isViewingInstructions = true;
             newGameSession = false;
+            isViewingHighScores = false;
             this.Enabled = false;
             this.Visible = false;
         }
@@ -128,8 +145,19 @@ namespace FluxOfSouls
        public void StartNewGame()
         {
             newGameSession = true;
+            isViewingHighScores = false;
+            isViewingInstructions = false;
             this.Enabled = false;
             this.Visible = false;
         }
+       public void ViewHighscores()
+       {
+           isViewingHighScores = true;
+           newGameSession = false;
+           isViewingInstructions = false;
+           this.Enabled = false;
+           this.Visible = false;
+       }
+
     }
 }

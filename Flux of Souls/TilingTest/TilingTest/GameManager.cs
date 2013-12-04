@@ -22,8 +22,10 @@ namespace FluxOfSouls
         TurnComponent turnComponent;
         InstructionsGui instructions;
         ResultScreen resultscreen;
+        HighScoresComponent highScoresComponent;
+        ScoreSubmissionBoxComponent scoreSubmissionboxComponent;
 
-        public GameManager(Game1 game, SplashScreenGameComponent splashScreen, EndTurnButtonComponent endTurnButton, ZoneGui zoneGui, SoulGui soulGui, EndOfTurnGui endOfTurnGui, TileMap tileMap, MapComponent mapComponent, PointSystemComponent pointSystemComponent, SelectionComponent selectionComponent, NewGame newgame, Difficulty difficulty, CurrencyControllerComponent currencyController, TurnComponent turnComponent, InstructionsGui instructions, ResultScreen resultScreen)
+        public GameManager(Game1 game, SplashScreenGameComponent splashScreen, EndTurnButtonComponent endTurnButton, ZoneGui zoneGui, SoulGui soulGui, EndOfTurnGui endOfTurnGui, TileMap tileMap, MapComponent mapComponent, PointSystemComponent pointSystemComponent, SelectionComponent selectionComponent, NewGame newgame, Difficulty difficulty, CurrencyControllerComponent currencyController, TurnComponent turnComponent, InstructionsGui instructions, ResultScreen resultScreen, HighScoresComponent highScoresComponent, ScoreSubmissionBoxComponent scoreSubmissionboxComponent)
         {
             this.splashScreen = splashScreen;
             this.endTurnButton = endTurnButton;
@@ -39,6 +41,8 @@ namespace FluxOfSouls
             this.turnComponent = turnComponent;
             this.instructions = instructions;
             this.resultscreen = resultScreen;
+            this.highScoresComponent = highScoresComponent;
+            this.scoreSubmissionboxComponent = scoreSubmissionboxComponent;
 
             //Handlers
             splashScreen.VisibleChanged += new EventHandler<EventArgs>(splashScreen_VisibleChanged);
@@ -49,11 +53,39 @@ namespace FluxOfSouls
             difficulty.VisibleChanged += new EventHandler<EventArgs>(difficulty_VisibleChanged);
             instructions.VisibleChanged += new EventHandler<EventArgs>(instructions_VisibleChanged);
             resultscreen.VisibleChanged += new EventHandler<EventArgs>(resultscreen_VisibleChanged);
+            scoreSubmissionboxComponent.VisibleChanged += new EventHandler<EventArgs>(scoreSubmissionboxComponent_VisibleChanged);
+            highScoresComponent.VisibleChanged += new EventHandler<EventArgs>(highScoresComponent_VisibleChanged);
+        }
+
+        void highScoresComponent_VisibleChanged(object sender, EventArgs e)
+        {
+            if (highScoresComponent.Visible == false && splashScreen.Visible == false)
+            {
+                newgame.Visible = true;
+                newgame.Enabled = true;
+                resultscreen.Visible = false;
+                resultscreen.Enabled = false;
+            }
+        }
+
+        void scoreSubmissionboxComponent_VisibleChanged(object sender, EventArgs e)
+        {
+            if (scoreSubmissionboxComponent.Visible == false && splashScreen.Visible == false)
+            {
+                highScoresComponent.Visible = true;
+                highScoresComponent.Enabled = true;
+                resultscreen.Visible = false;
+                resultscreen.Enabled = false;
+            }
         }
 
         void resultscreen_VisibleChanged(object sender, EventArgs e)
         {
-
+            if (resultscreen.Visible == true)
+            {
+                scoreSubmissionboxComponent.Visible = true;
+                scoreSubmissionboxComponent.Enabled = true;
+            }
         }
 
         void endOfTurnGui_VisibleChanged(object sender, EventArgs e)
@@ -193,10 +225,15 @@ namespace FluxOfSouls
                     difficulty.Enabled = true;
                 }
 
-                if (newgame.newGameSession == false)
+                if (newgame.isViewingInstructions == true)
                 {
                     instructions.Visible = true;
                     instructions.Enabled = true;
+                }
+                if (newgame.isViewingHighScores == true)
+                {
+                    highScoresComponent.Visible = true;
+                    highScoresComponent.Enabled = true;
                 }
             }
         }

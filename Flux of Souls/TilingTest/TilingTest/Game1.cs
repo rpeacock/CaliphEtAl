@@ -39,6 +39,8 @@ namespace FluxOfSouls
 
         CurrencyControllerComponent currencyController;
         TurnComponent turnComponent;
+        HighScoresComponent highScoreComponent;
+        ScoreSubmissionBoxComponent scoreSubmissionBoxComponent;
 
         //PointAndCurrency System class
         PointAndCurency pointAndCurency; //data class with only static methods for currency values
@@ -73,10 +75,12 @@ namespace FluxOfSouls
             turnComponent = new TurnComponent(this);
             instructions = new InstructionsGui(this);
             resultscreen = new ResultScreen(this);
-            
+            highScoreComponent = new HighScoresComponent(this);
+            scoreSubmissionBoxComponent = new ScoreSubmissionBoxComponent(this);
+
             //tileMap = new TileMap(this);
 
-            gameManager = new GameManager(this, splashScreen, endTurnButton, zoneGui, soulGui, endOfTurnGui, tileMap, mapComponent, pointSystemComponent, selectionComponent, newgame, difficulty, currencyController, turnComponent, instructions, resultscreen);
+            gameManager = new GameManager(this, splashScreen, endTurnButton, zoneGui, soulGui, endOfTurnGui, tileMap, mapComponent, pointSystemComponent, selectionComponent, newgame, difficulty, currencyController, turnComponent, instructions, resultscreen, highScoreComponent, scoreSubmissionBoxComponent);
 
             //tileMap.Visible = false;
             //tileMap.Enabled = false;
@@ -137,6 +141,13 @@ namespace FluxOfSouls
             resultscreen.Enabled = false;
             Components.Add(resultscreen);
 
+            highScoreComponent.Visible = false;
+            highScoreComponent.Enabled = true;
+            Components.Add(highScoreComponent);
+
+            scoreSubmissionBoxComponent.Visible = false;
+            scoreSubmissionBoxComponent.Enabled = false;
+            Components.Add(scoreSubmissionBoxComponent);
         }
         protected override void Initialize()
         {

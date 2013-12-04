@@ -47,7 +47,7 @@ namespace FluxOfSouls
 
             resultscreen = Game.Content.Load<Texture2D>(@"sprites\resultscreen");
             resultRectangle = new Rectangle(0, 0, resultscreen.Width, resultscreen.Height);
-            resultRectanglePosition = new Rectangle(0, 0, (int)(resultscreen.Width), GraphicsDevice.Viewport.Bounds.Height);
+            resultRectanglePosition = new Rectangle(0, 120, (int)(resultscreen.Width), GraphicsDevice.Viewport.Bounds.Height);
 
             //pointRectangle = new Rectangle(0, 0, instructionsButton.Bounds.Width, quitbutton.Bounds.Height);
             //instructionbuttonrectanglepos = new Rectangle(115, 230, instructionsButton.Bounds.Width, instructionsButton.Bounds.Height);
@@ -72,7 +72,7 @@ namespace FluxOfSouls
         {
             spriteBatch.Begin();
             spriteBatch.Draw(resultscreen, resultRectanglePosition, resultRectangle, Color.White);
-            spriteBatch.DrawString(spriteFont1, "Congratulations you're done the game, your final score is: " + PointAndCurency.GetPoints(), new Vector2(65, 400), Color.White);
+            spriteBatch.DrawString(spriteFont1, "Congratulations you're done the game, your final score is: " + PointAndCurency.GetPoints(), new Vector2(65, 450), Color.White);
 
             spriteBatch.End();
             base.Draw(gameTime);
