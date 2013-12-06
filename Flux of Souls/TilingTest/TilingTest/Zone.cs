@@ -35,12 +35,16 @@ namespace FluxOfSouls
             positionRectangle = new Rectangle((40 * col) + 300, (30 * row) + 55, 40, 30); //+300 and +55 are positioning the whole map to the right and south     
             this.id = idCounter;
             upgradeCost = 300;
-            numberOfSouls = 100;
+            numberOfSouls = 0;
             idCounter++;
         }
         public String getUpgradeCost()
         {
             return upgradeCost.ToString();
+        }
+        public String getNumberOfSouls()
+        {
+            return numberOfSouls.ToString();
         }
         public void setUpgradeCost(int cost)
         {
@@ -49,10 +53,6 @@ namespace FluxOfSouls
         public void setTileType(int zoneType)
         {
             this.zoneType = zoneType;
-        }
-        public String getNumberOfSouls()
-        {
-            return numberOfSouls.ToString();
         }
         public void setNumberOfSouls(int numberOfSouls)
         {
@@ -111,6 +111,11 @@ namespace FluxOfSouls
                     PointAndCurency.subtractGold(300);
                     zoneType = zoneType + 1;
                     upgradeCost = 500; //new cost
+                    numberOfSouls = 50;
+                        for (int x = 0; x < numberOfSouls; x++)
+                        {
+                            Souls.createSoul();
+                        }
                 }
             }
             else if (zoneType == 2)
@@ -120,6 +125,11 @@ namespace FluxOfSouls
                     PointAndCurency.subtractGold(500);
                     zoneType = zoneType + 1;
                     upgradeCost = 700; //new cost
+                    numberOfSouls = numberOfSouls + 50;
+                    for (int x = 0; x < 50; x++)
+                    {
+                        Souls.createSoul();
+                    }
                 }
             }
             else if (zoneType == 3)
@@ -129,6 +139,11 @@ namespace FluxOfSouls
                     PointAndCurency.subtractGold(700);
                     zoneType = zoneType + 1;
                     upgradeCost = 1000; //new cost
+                    numberOfSouls = numberOfSouls + 25;
+                    for (int x = 0; x < 25; x++)
+                    {
+                        Souls.createSoul();
+                    }
                 }
             }
             else if (zoneType == 4)
@@ -138,6 +153,11 @@ namespace FluxOfSouls
                     PointAndCurency.subtractGold(1000);
                     zoneType = zoneType + 1;
                     upgradeCost = 0; //new cost
+                    numberOfSouls = numberOfSouls + 25;
+                    for (int x = 0; x < 25; x++)
+                    {
+                        Souls.createSoul();
+                    }
                 }
             }
             

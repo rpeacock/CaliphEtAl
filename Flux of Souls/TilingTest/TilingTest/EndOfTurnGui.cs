@@ -56,7 +56,7 @@ namespace FluxOfSouls
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            
+
             //Loading Textures
             endOfTurnGuiTexture = Game.Content.Load<Texture2D>(@"sprites\endOfTurn");
             quit = Game.Content.Load<Texture2D>(@"sprites\quit");
@@ -80,7 +80,7 @@ namespace FluxOfSouls
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         public override void Update(GameTime gameTime)
         {
-            
+
             currentMouseState = Mouse.GetState();
             if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && quitRectanglePosition.Contains(currentMouseState.X, currentMouseState.Y))
             {
@@ -89,7 +89,7 @@ namespace FluxOfSouls
             if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && nextTurnRectanglePosition.Contains(currentMouseState.X, currentMouseState.Y))
             {
                 int currentTurn = Turn.getCurrentTurn();
-                if(currentTurn == Turn.getLastTurn())
+                if (currentTurn == Turn.getLastTurn())
                 {
                     //End Game Component 
                     this.Visible = false;
@@ -97,8 +97,9 @@ namespace FluxOfSouls
                 }
                 else
                 {
-                Turn.setCurrentTurn(currentTurn + 1);
-                NextTurn();
+                    Turn.setCurrentTurn(currentTurn + 1);
+                    Souls.endOfTurn();
+                    NextTurn();
                 }
             }
             pastMouseState = currentMouseState;
@@ -132,10 +133,13 @@ namespace FluxOfSouls
                 zone.setNumberOfSouls(0);
             }
             Turn.setCurrentTurn(1);
+            PointAndCurency.SetSouls(0);
+            PointAndCurency.SetPoints(0);
+            PointAndCurency.SetGold(0);
+            Souls.souls = new List<Soul>();
 
-            
-            
-            
+
+
             quitSession = true;
             this.Visible = false;
             this.Enabled = false;

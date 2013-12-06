@@ -34,10 +34,15 @@ namespace FluxOfSouls
         InstructionsGui instructions;
         NewGame newgame;
         Difficulty difficulty; 
-        Song mozart;
+        Song titleMusic;
+        ResultScreen resultscreen; 
 
         CurrencyControllerComponent currencyController;
         TurnComponent turnComponent;
+        HighScoresComponent highScoreComponent;
+        ScoreSubmissionBoxComponent scoreSubmissionBoxComponent;
+
+        GameHelpComponent gameHelpComponent;
 
         //PointAndCurrency System class
         PointAndCurency pointAndCurency; //data class with only static methods for currency values
@@ -71,10 +76,14 @@ namespace FluxOfSouls
             currencyController = new CurrencyControllerComponent(this);
             turnComponent = new TurnComponent(this);
             instructions = new InstructionsGui(this);
-            
+            resultscreen = new ResultScreen(this);
+            highScoreComponent = new HighScoresComponent(this);
+            scoreSubmissionBoxComponent = new ScoreSubmissionBoxComponent(this);
+            gameHelpComponent = new GameHelpComponent(this);
+
             //tileMap = new TileMap(this);
 
-            gameManager = new GameManager(this, splashScreen, endTurnButton, zoneGui, soulGui, endOfTurnGui, tileMap, mapComponent, pointSystemComponent, selectionComponent, newgame, difficulty, currencyController, turnComponent, instructions);
+            gameManager = new GameManager(this, splashScreen, endTurnButton, zoneGui, soulGui, endOfTurnGui, tileMap, mapComponent, pointSystemComponent, selectionComponent, newgame, difficulty, currencyController, turnComponent, instructions, resultscreen, highScoreComponent, scoreSubmissionBoxComponent, gameHelpComponent);
 
             //tileMap.Visible = false;
             //tileMap.Enabled = false;
@@ -130,6 +139,22 @@ namespace FluxOfSouls
             instructions.Visible = false;
             instructions.Enabled = false;
             Components.Add(instructions);
+
+            resultscreen.Visible = false;
+            resultscreen.Enabled = false;
+            Components.Add(resultscreen);
+
+            highScoreComponent.Visible = false;
+            highScoreComponent.Enabled = true;
+            Components.Add(highScoreComponent);
+
+            scoreSubmissionBoxComponent.Visible = false;
+            scoreSubmissionBoxComponent.Enabled = false;
+            Components.Add(scoreSubmissionBoxComponent);
+
+            gameHelpComponent.Visible = false;
+            gameHelpComponent.Enabled = false;
+            Components.Add(gameHelpComponent);
         }
         protected override void Initialize()
         {
@@ -144,9 +169,9 @@ namespace FluxOfSouls
             //Tile.TileSetTexture = Content.Load<Texture2D>(@"images\TileSets\part3_tileset");
             // TODO: use this.Content to load your game content here
 
-            mozart = Content.Load<Song>(@"Sounds\mozart");
+            titleMusic = Content.Load<Song>(@"Sounds\TitleScreen");
             MediaPlayer.IsRepeating = true;
-            MediaPlayer.Play(mozart);
+            MediaPlayer.Play(titleMusic);
         }
 
         protected override void UnloadContent()

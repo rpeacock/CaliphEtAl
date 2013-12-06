@@ -91,18 +91,33 @@ namespace FluxOfSouls
             if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && easybuttonbuttonrectanglepos.Contains(currentMouseState.X, currentMouseState.Y))
             {
                 PointAndCurency.SetGold(10000);
+                for (int x = 0; x < 20; x++)
+                {
+                    Souls.createSoul();
+                }
+                PointAndCurency.SetSouls(Souls.souls.Count);
                 Turn.setDifficulty("easy");
                 StartNewGame();
             }
             if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && normalbuttonrectanglepos.Contains(currentMouseState.X, currentMouseState.Y))
             {
                 PointAndCurency.SetGold(5000);
+                for (int x = 0; x < 15; x++)
+                {
+                    Souls.createSoul();
+                }
+                PointAndCurency.SetSouls(Souls.souls.Count);
                 Turn.setDifficulty("normal");
                 StartNewGame();
             }
             if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && expertbuttonrectanglepos.Contains(currentMouseState.X, currentMouseState.Y))
             {
                 PointAndCurency.SetGold(3000);
+                for (int x = 0; x < 10; x++)
+                {
+                    Souls.createSoul();
+                }
+                PointAndCurency.SetSouls(Souls.souls.Count);
                 Turn.setDifficulty("hard");
                 StartNewGame();
             }

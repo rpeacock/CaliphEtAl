@@ -21,9 +21,12 @@ namespace FluxOfSouls
         CurrencyControllerComponent currencyController;
         TurnComponent turnComponent;
         InstructionsGui instructions;
+        ResultScreen resultscreen;
+        HighScoresComponent highScoresComponent;
+        ScoreSubmissionBoxComponent scoreSubmissionboxComponent;
+        GameHelpComponent gameHelpComponent;
 
-
-        public GameManager(Game1 game, SplashScreenGameComponent splashScreen, EndTurnButtonComponent endTurnButton, ZoneGui zoneGui, SoulGui soulGui, EndOfTurnGui endOfTurnGui, TileMap tileMap, MapComponent mapComponent, PointSystemComponent pointSystemComponent, SelectionComponent selectionComponent, NewGame newgame, Difficulty difficulty, CurrencyControllerComponent currencyController, TurnComponent turnComponent, InstructionsGui instructions)
+        public GameManager(Game1 game, SplashScreenGameComponent splashScreen, EndTurnButtonComponent endTurnButton, ZoneGui zoneGui, SoulGui soulGui, EndOfTurnGui endOfTurnGui, TileMap tileMap, MapComponent mapComponent, PointSystemComponent pointSystemComponent, SelectionComponent selectionComponent, NewGame newgame, Difficulty difficulty, CurrencyControllerComponent currencyController, TurnComponent turnComponent, InstructionsGui instructions, ResultScreen resultScreen, HighScoresComponent highScoresComponent, ScoreSubmissionBoxComponent scoreSubmissionboxComponent, GameHelpComponent gameHelpComponent)
         {
             this.splashScreen = splashScreen;
             this.endTurnButton = endTurnButton;
@@ -38,7 +41,11 @@ namespace FluxOfSouls
             this.currencyController = currencyController;
             this.turnComponent = turnComponent;
             this.instructions = instructions;
-            
+            this.resultscreen = resultScreen;
+            this.highScoresComponent = highScoresComponent;
+            this.scoreSubmissionboxComponent = scoreSubmissionboxComponent;
+            this.gameHelpComponent = gameHelpComponent;
+
             //Handlers
             splashScreen.VisibleChanged += new EventHandler<EventArgs>(splashScreen_VisibleChanged);
             endOfTurnGui.VisibleChanged += new EventHandler<EventArgs>(endOfTurnGui_VisibleChanged);
@@ -47,13 +54,48 @@ namespace FluxOfSouls
             newgame.VisibleChanged += new EventHandler<EventArgs>(newgame_VisibleChanged);
             difficulty.VisibleChanged += new EventHandler<EventArgs>(difficulty_VisibleChanged);
             instructions.VisibleChanged += new EventHandler<EventArgs>(instructions_VisibleChanged);
+            resultscreen.VisibleChanged += new EventHandler<EventArgs>(resultscreen_VisibleChanged);
+            scoreSubmissionboxComponent.VisibleChanged += new EventHandler<EventArgs>(scoreSubmissionboxComponent_VisibleChanged);
+            highScoresComponent.VisibleChanged += new EventHandler<EventArgs>(highScoresComponent_VisibleChanged);
+            gameHelpComponent.VisibleChanged += new EventHandler<EventArgs>(gameHelpComponent_VisibleChanged);
+        }
+
+        void highScoresComponent_VisibleChanged(object sender, EventArgs e)
+        {
+            if (highScoresComponent.Visible == false && splashScreen.Visible == false)
+            {
+                newgame.Visible = true;
+                newgame.Enabled = true;
+                resultscreen.Visible = false;
+                resultscreen.Enabled = false;
+            }
+        }
+
+        void scoreSubmissionboxComponent_VisibleChanged(object sender, EventArgs e)
+        {
+            if (scoreSubmissionboxComponent.Visible == false && splashScreen.Visible == false)
+            {
+                highScoresComponent.Visible = true;
+                highScoresComponent.Enabled = true;
+                resultscreen.Visible = false;
+                resultscreen.Enabled = false;
+            }
+        }
+
+        void resultscreen_VisibleChanged(object sender, EventArgs e)
+        {
+            if (resultscreen.Visible == true)
+            {
+                scoreSubmissionboxComponent.Visible = true;
+                scoreSubmissionboxComponent.Enabled = true;
+            }
         }
 
         void endOfTurnGui_VisibleChanged(object sender, EventArgs e)
         {
             if (endOfTurnGui.Visible == false && splashScreen.Visible == false)
             {
-                if (endOfTurnGui.quitSession == false)
+                if (endOfTurnGui.quitSession == false && Turn.getCurrentTurn() < Turn.getLastTurn())
                 {
                     //Add end turn button component
                     endTurnButton.Visible = true;
@@ -79,11 +121,17 @@ namespace FluxOfSouls
                     //Allows the zoneGui thread to run
                     zoneGui.Visible = true;
                     zoneGui.Enabled = true;
+
+                    currencyController.Visible = true;
+                    currencyController.Enabled = true;
+
+                    gameHelpComponent.Visible = true;
+                    gameHelpComponent.Enabled = true;
                 }
 
                 if (endOfTurnGui.quitSession == true)
                 {
-                    
+
 
                     //Add end turn button component
                     endTurnButton.Visible = false;
@@ -116,9 +164,24 @@ namespace FluxOfSouls
                     mapComponent.Visible = false;
                     mapComponent.Enabled = false;
 
+                    gameHelpComponent.Visible = false;
+                    gameHelpComponent.Enabled = false;
+
                     newgame.Visible = true;
                     newgame.Enabled = true;
                 }
+
+                if (Turn.getCurrentTurn() == Turn.getLastTurn())
+                {
+                    Souls.endOfGame();
+                    endOfTurnGui.Enabled = false;
+                    endOfTurnGui.Visible = false;
+                    mapComponent.Visible = false;
+                    resultscreen.Visible = true;
+                    pointSystemComponent.Visible = false;
+
+                }
+
 
             }
         }
@@ -127,7 +190,7 @@ namespace FluxOfSouls
         {
             if (difficulty.Visible == false && splashScreen.Visible == false && newgame.Visible == false)
             {
-                
+
                 //Add end turn button component
                 endTurnButton.Visible = true;
                 endTurnButton.Enabled = true;
@@ -155,7 +218,13 @@ namespace FluxOfSouls
                 //Allows the zoneGui thread to run
                 zoneGui.Visible = true;
                 zoneGui.Enabled = true;
+
+                gameHelpComponent.Visible = true;
+                gameHelpComponent.Enabled = true;
+
             }
+
+            
         }
 
         void newgame_VisibleChanged(object sender, EventArgs e)
@@ -168,10 +237,15 @@ namespace FluxOfSouls
                     difficulty.Enabled = true;
                 }
 
-                if (newgame.newGameSession == false)
+                if (newgame.isViewingInstructions == true)
                 {
                     instructions.Visible = true;
                     instructions.Enabled = true;
+                }
+                if (newgame.isViewingHighScores == true)
+                {
+                    highScoresComponent.Visible = true;
+                    highScoresComponent.Enabled = true;
                 }
             }
         }
@@ -189,7 +263,7 @@ namespace FluxOfSouls
 
         void endTurnButton_VisibleChanged(object sender, EventArgs e)
         {
-            if (endTurnButton.Visible == false)
+            if (endTurnButton.Visible == false && gameHelpComponent.gameSessionHelp == false)
             {
                 //End turn button is hidden
                 endTurnButton.Visible = false;
@@ -208,6 +282,10 @@ namespace FluxOfSouls
                 //Currency controller hidden
                 currencyController.Visible = false;
                 currencyController.Enabled = false;
+
+                gameHelpComponent.Visible = false;
+                gameHelpComponent.Enabled = false;
+
                 //zone or soul guis are hidden.
                 if (zoneGui.Visible == true)
                 {
@@ -219,6 +297,9 @@ namespace FluxOfSouls
                     soulGui.Visible = false;
                     soulGui.Enabled = false;
                 }
+
+                instructions.Visible = false;
+                instructions.Enabled = false;
 
                 //if(true)//Hide any menu options if there are any
                 //{ 
@@ -242,10 +323,98 @@ namespace FluxOfSouls
 
         void instructions_VisibleChanged(object sender, EventArgs e)
         {
-            if (instructions.Visible == false && instructions.returnMenu == true)
+            if (instructions.Visible == false)
             {
-                newgame.Visible = true;
-                newgame.Enabled = true;
+                if (gameHelpComponent.gameSessionHelp == true)
+                {
+                    instructions.Visible = false;
+                    instructions.Enabled = false;
+
+                    //Add end turn button component
+                    endTurnButton.Visible = true;
+                    endTurnButton.Enabled = true;
+
+                    //Map is made visible
+                    mapComponent.Visible = true;
+                    mapComponent.Enabled = true;
+
+                    //PointSystem is visible
+                    pointSystemComponent.Visible = true;
+                    pointSystemComponent.Enabled = true;
+
+                    //Selection - green square made visible
+                    selectionComponent.Visible = true;
+                    selectionComponent.Enabled = true;
+
+                    //CurrencyController made visible
+                    currencyController.Visible = true;
+                    currencyController.Enabled = true;
+
+                    //Turn Component made visible
+                    turnComponent.Visible = true;
+                    turnComponent.Enabled = true;
+
+                    //Allows the zoneGui thread to run
+                    zoneGui.Visible = true;
+                    zoneGui.Enabled = true;
+
+                    gameHelpComponent.Visible = true;
+                    gameHelpComponent.Enabled = true;
+
+                    endOfTurnGui.Visible = false;
+                    endOfTurnGui.Enabled = false;
+
+                    gameHelpComponent.gameSessionHelp = false;
+                }
+
+                if (newgame.isViewingInstructions == true)
+                {
+                    newgame.Visible = true;
+                    newgame.Enabled = true;
+                    newgame.isViewingInstructions = false;
+                }
+            }
+        }
+
+        void gameHelpComponent_VisibleChanged(object sender, EventArgs e)
+        {
+
+            if (gameHelpComponent.Visible == false)
+            {
+                //End turn button is hidden
+                endTurnButton.Visible = false;
+                endTurnButton.Enabled = false;
+
+                //Turn Component made visible
+                turnComponent.Visible = false;
+                turnComponent.Enabled = false;
+
+                //Map is hidden to be implemented
+
+                //Selection gets hidden
+                selectionComponent.Visible = false;
+                selectionComponent.Enabled = false;
+
+                //Currency controller hidden
+                currencyController.Visible = false;
+                currencyController.Enabled = false;
+
+                gameHelpComponent.Visible = false;
+                gameHelpComponent.Enabled = false;
+
+                //zone or soul guis are hidden.
+                if (zoneGui.Visible == true)
+                {
+                    zoneGui.Visible = false;
+                    zoneGui.Enabled = false;
+                }
+                if (soulGui.Visible == true)
+                {
+                    soulGui.Visible = false;
+                    soulGui.Enabled = false;
+                }
+                instructions.Visible = true;
+                instructions.Enabled = true;
             }
         }
     }

@@ -29,6 +29,11 @@ namespace FluxOfSouls
         double milliSeconds = 0;
         double milliSecondsPerTime = 10;
 
+        //For Text
+        SpriteFont spriteFont;
+        String startString = "";
+        Vector2 startStringPosition = new Vector2(250, 440);
+
         public SplashScreenGameComponent(Game game)
             : base(game)
         {
@@ -55,6 +60,8 @@ namespace FluxOfSouls
             boundsWidth = GraphicsDevice.Viewport.Bounds.Width;
             boundsHeight = GraphicsDevice.Viewport.Bounds.Height;
 
+            //loading Fonts
+            spriteFont = Game.Content.Load<SpriteFont>(@"fonts\CourierNew");
 
             titleRectanglePosition = new Rectangle((boundsWidth - introImage.Width) / 2, -200, introImage.Width, introImage.Height);
             titleRectangle = new Rectangle(0, 0, introImage.Width, introImage.Height);
@@ -83,6 +90,7 @@ namespace FluxOfSouls
                 }
                 if (startReady == true)
                 {
+                    startString = "Press Space to Start";
                     HandleInput();
                 }
             }
@@ -94,6 +102,7 @@ namespace FluxOfSouls
             else
             {
                 startReady = true;
+
             }
             if (startReady == true)
             {
@@ -106,6 +115,7 @@ namespace FluxOfSouls
         {
             spriteBatch.Begin();
             spriteBatch.Draw(introImage, titleRectanglePosition, titleRectangle, Color.White);
+            spriteBatch.DrawString(spriteFont, startString, startStringPosition, Color.White);
             spriteBatch.End();
 
             base.Draw(gameTime);

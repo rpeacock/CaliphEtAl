@@ -31,6 +31,9 @@ namespace FluxOfSouls
         MouseState currentMouseState;
         MouseState pastMouseState;
 
+        //Sound effects
+        SoundEffect endTurnado;
+
         public EndTurnButtonComponent(Game game)
             : base(game)
         {
@@ -61,6 +64,8 @@ namespace FluxOfSouls
             endTurnRectangle = new Rectangle(0, 0, endTurnTexture.Width, endTurnTexture.Height);
             endTurnRectanglePosition = new Rectangle(bounds.Width - endTurnRectangle.Width - 10, bounds.Height - endTurnRectangle.Height - 10, endTurnTexture.Width, endTurnTexture.Height);
 
+            // Sound effect
+            endTurnado = Game.Content.Load<SoundEffect>(@"sounds\Tornado");
 
 
             base.LoadContent();
@@ -70,6 +75,7 @@ namespace FluxOfSouls
             currentMouseState = Mouse.GetState();
             if (currentMouseState.LeftButton == ButtonState.Released && pastMouseState.LeftButton == ButtonState.Pressed && endTurnRectanglePosition.Contains(currentMouseState.X, currentMouseState.Y))
             {
+                endTurnado.Play();
                 EndTurn();
             }
             pastMouseState = currentMouseState;

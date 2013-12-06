@@ -21,7 +21,12 @@ namespace FluxOfSouls
 
         SpriteFont font;
         string text;
-        Vector2 textPos = new Vector2(80,100);
+        string text1;
+        string text2;
+        string text3;
+        string text4;
+        string text5;
+        Vector2 textPos = new Vector2(80, 100);
 
         Texture2D nextInstructions;
         Rectangle nextInstructRectangle;
@@ -40,6 +45,7 @@ namespace FluxOfSouls
         MouseState pastMouseState;
 
         public bool returnMenu;
+        public bool returnGame;
 
         public InstructionsGui(Game game)
             : base(game)
@@ -80,13 +86,49 @@ namespace FluxOfSouls
             backRectangle = new Rectangle(0, 0, back.Bounds.Width, back.Bounds.Height);
             backPos = new Rectangle(80, 400, back.Bounds.Width, back.Bounds.Height);
 
-            text = "Welcome to Flux of Souls!" + 
-                "\nYou are a benevolent God and have been tasked with" +
-                "\nkeeping all your followers happy by ensuring their quality of" + 
-                "\nlife. You will not have any control over the people themselves" + 
-                "\nbut you will be able to control their environment." + 
-                "\nThe game is turn based and you'll have a set amount of turns" +
-                "\nto get the highest score possible. Good Luck!";
+            text1 = "Welcome to Flux of Souls!" +
+               "\nYou are a benevolent God and have been tasked with" +
+               "\nkeeping all your followers happy by ensuring their quality of" +
+               "\nlife. You will not have any control over the people themselves" +
+               "\nbut you will be able to control their environment." +
+               "\nThe game is turn based and you'll have a set amount of turns" +
+               "\nto get the highest score possible. Good Luck!";
+
+            text2 = "Controls" +
+                "\nCash: Your currently held amount of money to spend" +
+                "\nSoul Pool: Souls that are currently in limbo and can be" +
+                "\nsent back or turned into points" +
+                "\nPoints: Your current score" +
+                "\nTurn: Your current turn" +
+                "\nReturn souls: Returns souls from the soul pool to" +
+                "\nthe highlighted tile" +
+                "\nUpgrade: upgrades the highlighted tile, costs cash";
+
+            text3 = "Controls 2" +
+                "\nCash Souls: turns all the souls on the highlighted" + 
+                "\ntile into points" +
+                "\nGet points for souls: turns one of the souls in your" +
+                "\nsoul pool into points (Warning! Souls can" +
+                "\nbe good or bad, good souls give you" +
+                "\npoints, bad souls take them away!)" +
+                "\nSell souls: sells the 1 soul in the soul pool for 75 cash" +
+                "\nBuy souls: buys one new soul for 100 cash and puts" + 
+                "\nit in the soul pool" +
+                "\nEnd turn: ends that turn";
+
+            text4 = "Difficulty" +
+                "\nEasy gives you 10000 cash, 20 souls and 30 turns" +
+                "\nNormal gives you 5000 cash, 15 souls and 20 turns" +
+                "\nExpert gives you 3000 cash, 10 souls and 10 turns";
+
+            text5 = "Tiles" +
+                "\nWater: Water tiles cannot sustain any population" +
+                "\nLand: Land tiles can sustain a very small population" +
+                "\nVillage: Village tiles can sustain a small population" +
+                "\nTown: Town tiles can sustain an average population" +
+                "\nCity: City tiles can sustain a large population";
+            text = text1;
+
 
             base.LoadContent();
 
@@ -129,28 +171,49 @@ namespace FluxOfSouls
         //To be implemented
         private void Previous()
         {
-            text = "Welcome to Flux of Souls!" +
-               "\nYou are a benevolent God and have been tasked with" +
-               "\nkeeping all your followers happy by ensuring their quality of" +
-               "\nlife. You will not have any control over the people themselves" +
-               "\nbut you will be able to control their environment." +
-               "\nThe game is turn based and you'll have a set amount of turns" +
-               "\nto get the highest score possible. Good Luck!";
+            if (text == text2)
+            {
+                text = text1;
+            }
+            if (text == text3)
+            {
+                text = text2;
+            }
+            if (text == text4)
+            {
+                text = text3;
+            }
+            if (text == text5)
+            {
+                text = text4;
+            }
+
         }
 
         private void Next()
         {
-            text = "Tiles" +
-                "\nWater: Water tiles cannot sustain any population" +
-                "\nLand: Land tiles can sustain a very small population" +
-                "\nVillage: Village tiles can sustain a small population" +
-                "\nTown: Town tiles can sustain an average population" +
-                "\nCity: City tiles can sustain a large population";
+            if (text == text4)
+            {
+                text = text5;
+            }
+            if (text == text3)
+            {
+                text = text4;
+            }
+            if (text == text2)
+            {
+                text = text3;
+            }
+            if (text == text1)
+            {
+                text = text2;
+            }
+            
         }
 
         private void Back()
         {
-            returnMenu = true;
+            text = text1;
             this.Visible = false;
             this.Enabled = false;
         }

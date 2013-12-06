@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\images\TileSets\part3_tileset.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\images\TileSets\part3_tileset.xnb</Output>
       <Time>2013-11-25T12:27:37.1244475-05:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\cashSouls.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\cashSouls.xnb</Output>
       <Time>2013-11-25T12:27:37.2694558-05:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\endOfTurn.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\endOfTurn.xnb</Output>
       <Time>2013-11-25T12:27:37.2894569-05:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\nextTurn.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\nextTurn.xnb</Output>
       <Time>2013-11-25T12:27:37.2934572-05:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\quit.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\quit.xnb</Output>
       <Time>2013-11-25T12:27:37.2954573-05:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\soulGui.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\soulGui.xnb</Output>
       <Time>2013-11-25T12:27:37.2984575-05:00</Time>
     </Item>
     <Item>
@@ -61,7 +61,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\title.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\title.xnb</Output>
       <Time>2013-11-25T12:27:37.3204587-05:00</Time>
     </Item>
     <Item>
@@ -70,7 +70,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\upgrade.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\upgrade.xnb</Output>
       <Time>2013-11-25T12:27:37.3214588-05:00</Time>
     </Item>
     <Item>
@@ -79,7 +79,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\zoneGui.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\zoneGui.xnb</Output>
       <Time>2013-11-25T12:27:37.3234589-05:00</Time>
     </Item>
     <Item>
@@ -88,7 +88,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\endTurn.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\endTurn.xnb</Output>
       <Time>2013-11-25T12:27:37.2894569-05:00</Time>
     </Item>
     <Item>
@@ -97,7 +97,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\tiles.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\tiles.xnb</Output>
       <Time>2013-11-25T12:27:37.3194587-05:00</Time>
     </Item>
     <Item>
@@ -106,7 +106,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\goldCurrency.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\goldCurrency.xnb</Output>
       <Time>2013-11-25T12:27:37.2914571-05:00</Time>
     </Item>
     <Item>
@@ -115,7 +115,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\pointCurrency.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\pointCurrency.xnb</Output>
       <Time>2013-11-25T12:27:37.2954573-05:00</Time>
     </Item>
     <Item>
@@ -124,7 +124,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\soulCurrency.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\soulCurrency.xnb</Output>
       <Time>2013-11-25T12:27:37.2984575-05:00</Time>
     </Item>
     <Item>
@@ -133,7 +133,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\currencyContainer.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\currencyContainer.xnb</Output>
       <Time>2013-11-25T12:27:37.2694558-05:00</Time>
     </Item>
     <Item>
@@ -142,7 +142,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\selection.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\selection.xnb</Output>
       <Time>2013-11-25T12:27:37.2964573-05:00</Time>
     </Item>
     <Item>
@@ -151,7 +151,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\newgame.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\newgame.xnb</Output>
       <Time>2013-11-25T12:27:37.2924571-05:00</Time>
     </Item>
     <Item>
@@ -160,7 +160,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\viewinstructionsbutton.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\viewinstructionsbutton.xnb</Output>
       <Time>2013-11-25T12:27:37.3224588-05:00</Time>
     </Item>
     <Item>
@@ -169,7 +169,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\newgamebutton.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\newgamebutton.xnb</Output>
       <Time>2013-11-25T12:27:37.2934572-05:00</Time>
     </Item>
     <Item>
@@ -178,7 +178,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\expertbutton.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\expertbutton.xnb</Output>
       <Time>2013-11-25T12:27:37.290457-05:00</Time>
     </Item>
     <Item>
@@ -187,7 +187,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\normalbutton.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\normalbutton.xnb</Output>
       <Time>2013-11-25T12:27:37.2944572-05:00</Time>
     </Item>
     <Item>
@@ -196,7 +196,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\easybutton.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\easybutton.xnb</Output>
       <Time>2013-11-25T12:27:37.2884569-05:00</Time>
     </Item>
     <Item>
@@ -205,7 +205,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\return.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\return.xnb</Output>
       <Time>2013-11-25T12:27:37.2964573-05:00</Time>
     </Item>
     <Item>
@@ -214,7 +214,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\currencyController.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\currencyController.xnb</Output>
       <Time>2013-11-25T12:27:37.2884569-05:00</Time>
     </Item>
     <Item>
@@ -223,7 +223,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\getPoints.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\getPoints.xnb</Output>
       <Time>2013-11-25T12:27:37.2914571-05:00</Time>
     </Item>
     <Item>
@@ -232,7 +232,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\sellSouls.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\sellSouls.xnb</Output>
       <Time>2013-11-25T12:27:37.2974574-05:00</Time>
     </Item>
     <Item>
@@ -241,45 +241,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\turn.xnb</Output>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\turn.xnb</Output>
       <Time>2013-11-25T12:27:37.3214588-05:00</Time>
-    </Item>
-    <Item>
-      <Source>fonts\CourierNew.spritefont</Source>
-      <Name>fonts\CourierNew</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\fonts\CourierNew.xnb</Output>
-      <Time>2013-11-25T12:27:37.1224474-05:00</Time>
-    </Item>
-    <Item>
-      <Source>sounds\mozart.mp3</Source>
-      <Name>sounds\mozart</Name>
-      <Importer>Mp3Importer</Importer>
-      <Processor>SongProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\mozart.xnb</Output>
-      <Extra>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\mozart.wma</Extra>
-      <Time>2013-11-25T12:27:37.2664556-05:00</Time>
-    </Item>
-    <Item>
-      <Source>sprites\instructions.png</Source>
-      <Name>sprites\instructions</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\instructions.xnb</Output>
-      <Time>2013-11-25T13:43:38.6557449-05:00</Time>
-    </Item>
-    <Item>
-      <Source>sprites\next.png</Source>
-      <Name>sprites\next</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\next.xnb</Output>
-      <Time>2013-11-25T13:44:04.0741007-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\back.png</Source>
@@ -287,8 +250,44 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\back.xnb</Output>
-      <Time>2013-11-25T13:44:20.8361404-05:00</Time>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\back.xnb</Output>
+      <Time>2013-12-02T12:50:14.2659905-05:00</Time>
+    </Item>
+    <Item>
+      <Source>sprites\buySouls.png</Source>
+      <Name>sprites\buySouls</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\buySouls.xnb</Output>
+      <Time>2013-12-02T12:50:14.3829972-05:00</Time>
+    </Item>
+    <Item>
+      <Source>sprites\instructions.png</Source>
+      <Name>sprites\instructions</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\instructions.xnb</Output>
+      <Time>2013-12-02T12:50:14.3879975-05:00</Time>
+    </Item>
+    <Item>
+      <Source>next.png</Source>
+      <Name>next</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\next.xnb</Output>
+      <Time>2013-12-02T12:50:14.1599845-05:00</Time>
+    </Item>
+    <Item>
+      <Source>sprites\next.png</Source>
+      <Name>sprites\next</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\next.xnb</Output>
+      <Time>2013-12-02T12:50:14.3919977-05:00</Time>
     </Item>
     <Item>
       <Source>sprites\prev.png</Source>
@@ -296,8 +295,144 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\prev.xnb</Output>
-      <Time>2013-11-25T13:44:32.7161571-05:00</Time>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\prev.xnb</Output>
+      <Time>2013-12-02T12:50:14.5160048-05:00</Time>
+    </Item>
+    <Item>
+      <Source>sprites\resultscreen.png</Source>
+      <Name>sprites\resultscreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\resultscreen.xnb</Output>
+      <Time>2013-12-02T12:50:14.5280055-05:00</Time>
+    </Item>
+    <Item>
+      <Source>fonts\CourierNew.spritefont</Source>
+      <Name>fonts\CourierNew</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\fonts\CourierNew.xnb</Output>
+      <Time>2013-11-25T12:27:37.1224474-05:00</Time>
+    </Item>
+    <Item>
+      <Source>sounds\TitleScreen.mp3</Source>
+      <Name>sounds\TitleScreen</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\TitleScreen.xnb</Output>
+      <Extra>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\TitleScreen.wma</Extra>
+      <Time>2013-12-02T12:50:14.1919863-05:00</Time>
+    </Item>
+    <Item>
+      <Source>sprites\highscores.png</Source>
+      <Name>sprites\highscores</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\highscores.xnb</Output>
+      <Time>2013-12-04T13:41:42.3193178-05:00</Time>
+    </Item>
+    <Item>
+      <Source>sprites\menu.png</Source>
+      <Name>sprites\menu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\menu.xnb</Output>
+      <Time>2013-12-04T13:41:42.3203179-05:00</Time>
+    </Item>
+    <Item>
+      <Source>sprites\highscoreGUI.png</Source>
+      <Name>sprites\highscoreGUI</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\highscoreGUI.xnb</Output>
+      <Time>2013-12-04T13:41:42.3183178-05:00</Time>
+    </Item>
+    <Item>
+      <Source>sprites\submit.png</Source>
+      <Name>sprites\submit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\submit.xnb</Output>
+      <Time>2013-12-04T13:41:42.322318-05:00</Time>
+    </Item>
+    <Item>
+      <Source>sprites\textBox.png</Source>
+      <Name>sprites\textBox</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\textBox.xnb</Output>
+      <Time>2013-12-04T13:41:42.3243181-05:00</Time>
+    </Item>
+    <Item>
+      <Source>sprites\submitHighscoreBox.png</Source>
+      <Name>sprites\submitHighscoreBox</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\submitHighscoreBox.xnb</Output>
+      <Time>2013-12-04T13:41:42.323318-05:00</Time>
+    </Item>
+    <Item>
+      <Source>sounds\Warble.wav</Source>
+      <Name>sounds\Warble</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\Warble.xnb</Output>
+      <Time>2013-12-05T22:31:59.6674863-05:00</Time>
+    </Item>
+    <Item>
+      <Source>sounds\splash2.wav</Source>
+      <Name>sounds\splash2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\splash2.xnb</Output>
+      <Time>2013-12-05T22:31:59.9004996-05:00</Time>
+    </Item>
+    <Item>
+      <Source>sounds\Tornado.wav</Source>
+      <Name>sounds\Tornado</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\Tornado.xnb</Output>
+      <Time>2013-12-05T22:31:59.628484-05:00</Time>
+    </Item>
+    <Item>
+      <Source>sounds\pew.wav</Source>
+      <Name>sounds\pew</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\pew.xnb</Output>
+      <Time>2013-12-05T22:31:59.8354959-05:00</Time>
+    </Item>
+    <Item>
+      <Source>sounds\end.wav</Source>
+      <Name>sounds\end</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sounds\end.xnb</Output>
+      <Time>2013-12-05T22:31:59.7654919-05:00</Time>
+    </Item>
+    <Item>
+      <Source>sprites\Help.png</Source>
+      <Name>sprites\Help</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\sprites\Help.xnb</Output>
+      <Time>2013-12-04T13:36:17.4488282-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -305,10 +440,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTestContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTestContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Stephen\Documents\centennial\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTestContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTestContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Stephen\Documents\centennial\Programmer Project\Flux of Souls\TilingTest\TilingTest\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

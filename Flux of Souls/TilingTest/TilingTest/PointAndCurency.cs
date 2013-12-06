@@ -13,8 +13,8 @@ namespace FluxOfSouls
 
         public PointAndCurency()
         {
-            gold = 5000;
-            souls = 5000;
+            gold = 0;
+            souls = 0;
             points = 0;
         }
         static public void SetGold(int newGold)
