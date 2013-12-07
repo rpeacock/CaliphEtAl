@@ -118,6 +118,48 @@ namespace FluxOfSouls
         //To be implemented
         public void NextTurn()
         {
+            PointAndCurency.addGold(500);
+
+            List<Zone> zones = new List<Zone>();
+            zones = MapComponent.GetZones();
+
+            foreach (Zone zone in zones)
+            {
+                if (Int32.Parse(zone.getNumberOfSouls()) > 3)
+                {
+                    if (zone.GetZoneType() == 2)
+                    {
+                        int oldNumberOfSouls = Int32.Parse(zone.getNumberOfSouls());
+                        zone.setNumberOfSouls(oldNumberOfSouls + 2);
+                    }
+                    if (zone.GetZoneType() == 3)
+                    {
+                        int oldNumberOfSouls = Int32.Parse(zone.getNumberOfSouls());
+                        zone.setNumberOfSouls(oldNumberOfSouls + 4);
+                    }
+                    if (zone.GetZoneType() == 4)
+                    {
+                        int oldNumberOfSouls = Int32.Parse(zone.getNumberOfSouls());
+                        zone.setNumberOfSouls(oldNumberOfSouls + 7);
+                    }
+                    if (zone.GetZoneType() == 5)
+                    {
+                        int oldNumberOfSouls = Int32.Parse(zone.getNumberOfSouls());
+                        zone.setNumberOfSouls(oldNumberOfSouls + 10);
+                    }
+
+                }
+                else
+                {
+                    if(zone.GetZoneType() != 1)
+                    {
+                        int oldNumberOfSouls = Int32.Parse(zone.getNumberOfSouls());
+                        zone.setNumberOfSouls(oldNumberOfSouls + 1);
+                    }                
+                }
+            }    
+
+
             quitSession = false;
             this.Visible = false;
             this.Enabled = false;

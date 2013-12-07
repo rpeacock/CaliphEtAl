@@ -111,7 +111,7 @@ namespace FluxOfSouls
                     PointAndCurency.subtractGold(300);
                     zoneType = zoneType + 1;
                     upgradeCost = 500; //new cost
-                    numberOfSouls = 50;
+                    //numberOfSouls = 50;
                         for (int x = 0; x < numberOfSouls; x++)
                         {
                             Souls.createSoul();
@@ -125,7 +125,7 @@ namespace FluxOfSouls
                     PointAndCurency.subtractGold(500);
                     zoneType = zoneType + 1;
                     upgradeCost = 700; //new cost
-                    numberOfSouls = numberOfSouls + 50;
+                    //numberOfSouls = numberOfSouls + 50;
                     for (int x = 0; x < 50; x++)
                     {
                         Souls.createSoul();
@@ -139,7 +139,7 @@ namespace FluxOfSouls
                     PointAndCurency.subtractGold(700);
                     zoneType = zoneType + 1;
                     upgradeCost = 1000; //new cost
-                    numberOfSouls = numberOfSouls + 25;
+                    //numberOfSouls = numberOfSouls + 25;
                     for (int x = 0; x < 25; x++)
                     {
                         Souls.createSoul();
@@ -153,7 +153,7 @@ namespace FluxOfSouls
                     PointAndCurency.subtractGold(1000);
                     zoneType = zoneType + 1;
                     upgradeCost = 0; //new cost
-                    numberOfSouls = numberOfSouls + 25;
+                    //numberOfSouls = numberOfSouls + 25;
                     for (int x = 0; x < 25; x++)
                     {
                         Souls.createSoul();

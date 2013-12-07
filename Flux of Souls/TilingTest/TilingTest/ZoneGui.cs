@@ -196,7 +196,8 @@ namespace FluxOfSouls
             {
                 ohNo.Play();
             }
-            Souls.scoreSoul(Convert.ToInt32(Zone.GetSelectedZone().getNumberOfSouls()));
+            PointAndCurency.addSouls(Int32.Parse(Zone.GetSelectedZone().getNumberOfSouls()));
+            //Souls.scoreSoul(Convert.ToInt32(Zone.GetSelectedZone().getNumberOfSouls()));
             Zone.GetSelectedZone().setNumberOfSouls(0);
         }
 

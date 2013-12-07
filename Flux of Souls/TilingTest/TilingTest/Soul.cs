@@ -122,7 +122,7 @@ namespace FluxOfSouls
                 if (soul.soulName == "currency" && selling == 0)
                 {
                     currentPoints = (currentPoints + soul.goodLevel);
-                    currentSouls = currentSouls - 1;
+                    currentSouls = currentSouls - 5;
                     selling++;
                     soul.soulName = "point";
                     PointAndCurency.SetSouls(currentSouls);
